@@ -4,8 +4,9 @@ COMMAND_ONLY_PLAYERS: 'This command for only players'
 COOLDOWN: '§fПодождите §c%s §fсекунд перед повторным использованием'
 BOXES_GUI_NAME: '§8Кейсы'
 BOXES_IS_OPEN: '§6§lК§e§lЕЙСЫ§7: §fКейс §cуже открывает §fкто-то другой, пожалуйста, подождите'
-BOXES_HOLOGRAMS:
+BOXES_HOLOGRAM:
 - '§3§k|||§r §6§lО§e§lКУПНЫЕ §6§lК§e§lЕЙСЫ §3§k|||§r'
+- '§b➥ §fНажмите, чтобы открыть'
 BOXES_COMMAND_HELP:
 - ''
 - '§a/boxes give ник название количество §f- выдать кейсы игроку'
