@@ -1,238 +1,4 @@
-#CORE
-ERROR_WITH_YOUR_BUKKIT: '§cС Вашим аккаунтом произошла ошибка. Перезайдите на сервер и попробуйте ввести команду снова'
-HUB_TELEPORT: '§6§lСервер §8| §fВы были телепортированы на сервер §d%s'
-ALREADY_HUB: '§6§lСервер §8| §fВы §cуже находитесь §fв лобби'
-#TRADER
-TRADER_GUI_NAME: '§8Скупщик'
-TRADER_NO_ITEMS: '§6§lСкупщик §8| §fУ вас нет §cнеобходимых §fпредметов'
-TRADER_NOT_ENOUGH_ITEMS: '§6§lСкупщик §8| §fУ вас §cнедостаточно §fпредметов'
-TRADER_SELL_ITEMS: '§6§lСкупщик §8| §fВы продали §a%s §fпредметов на сумму §e%s§6⛂'
-TRADER_ITEM_LORE:
-- ''
-- ' §8▪ §fСтоимость: §e%s§6⛂'
-- ' §8▪ §fКоличество: §6%s'
-- ''
-- '§a▸ §a§lНажмите§7, чтобы продать'
-#CORE-FRIENDS
-FRIENDS_GUI_NAME: 'Список друзей'
-FRIEND_ITEM_INFO_NAME: '§6§lИнформация'
-FRIEND_ITEM_INFO_LORE:
-- ''
-- ' §8▪ §fВсего друзей: §e%s§8/§c%s'
-- ' §8▪ §fОнлайн друзей: §a%s'
-FRIEND_ITEM_NAME: '%s'
-FRIEND_ITEM_ONLINE_LORE:
-- ''
-- '§8▪ §fВ сети: §aонлайн'
-- '§8▪ §fСервер: §d%s'
-- '§8▪ §fУровень: §b%s'
-- ''
-- '§a▸ §a§lНажмите§7, чтобы телепортироваться'
-FRIEND_ITEM_OFFLINE_LORE:
-- ''
-- '§8▪ §fСтатус: §cне онлайн'
-- '§8▪ §fБыл в сети: §c%s назад'
-- '§8▪ §fПоследний сервер: §d%s'
-- '§8▪ §fУровень: §b%s'
-FRIENDS_REQUESTS_GUI_NAME: 'Запросы в друзья'
-FRIEND_ITEM_REQUEST_INFO_NAME: '§6§lИнформация'
-FRIEND_ITEM_REQUEST_INFO_LORE:
-- ''
-- '§8▪ §fВсего запросов в друзья: §e%s'
-FRIEND_ITEM_REQUEST_NAME: '%s'
-FRIEND_ITEM_REQUEST_LORE:
-- ''
-- '§a▸ §a§lНажмите ЛКМ§7, чтобы принять запрос'
-- '§c▸ §c§lНажмите ПКМ§7, чтобы отклонить запрос'
-COMMAND_FRIENDS_ADD_FORMAT: /f add <ник игрока>
-COMMAND_FRIENDS_REMOVE_FORMAT: /f remove <ник друга>
-COMMAND_FRIENDS_ACCEPT_FORMAT: /f accept <ник игрока>
-COMMAND_FRIENDS_DENY_FORMAT: /f deny <ник игрока>
-COMMAND_FRIENDS_TP_FORMAT: /f tp <ник друга>
-COMMAND_FRIENDS_HELP:
-- '§7/friends add [ник] §f- добавить игрока в друзья'
-- '§7/friends remove [ник] §f- удалить игрока из друзей'
-- '§7/friends accept [ник] §f- принять запрос игрока в друзья'
-- '§7/friends deny [ник] §f- отклонить запрос игрока в друзья'
-- '§7/friends requests §f- список запросов в друзья'
-- '§7/friends list §f- список друзей'
-- '§7/friends tp [ник] §f- телепортация на сервер друга'
-FRIENDS_SERVERS_SAME: '§6§lДрузья §8| §fВы §cуже находитесь §fна этом сервере'
-FRIENDS_LIMIT: '§6§lДрузья §8| §fДостигнут лимит друзей для вашей группы: §c%s'
-FRIENDS_NO_REQUESTS: '§6§lДрузья §8| §fУ Вас §cнет запросов §fв друзья'
-FRIENDS_NO_FRIENDS: '§6§lДрузья §8| §fУ вас §cнет §fдрузей'
-FRIENDS_ALREADY_FRIEND: '§6§lДрузья §8| §fДанный игрок уже §aявляется вашим другом'
-FRIENDS_YOURSELF_AS_FRIEND: '§6§lДрузья §8| §fВы §cне можете §fотправить заявку в друзья самому себе'
-FRIENDS_TARGET_LIMIT: '§6§lДрузья §8| §fУ данного игрока §cдостигнут лимит §fдрузей'
-FRIENDS_TARGET_IGNORE: '§6§lДрузья §8| §fДанный игрок добавил вас в §cсписок игнорируемых'
-FRIENDS_NOT_FRIEND: '§6§lДрузья §8| §fДанный игрок §cне является §fвашим другом'
-FRIENDS_REDIRECTING: '§6§lДрузья §8| §fВы были телепортированы на сервер игрока §a%s§f: §d%s'
-FRIENDS_FRIEND_REMOVED: '§6§lДрузья §8| §fВы удалили игрока §a%s §fиз списка ваших друзей'
-FRIENDS_FRIEND_REMOVED_YOU: '§6§lДрузья §8| §fИгрок §c%s§f удалил вас из списка друзей'
-FRIENDS_ALREADY_SENT_REQUEST: '§6§lДрузья §8| §fВы §cуже отправили §fзапрос в друзья данному игроку'
-FRIENDS_INVITE_EVENT_CANCELLED: '§6§lДрузья §8| §fДанный игрок §cзапретил §fотправлять ему запросы в друзья'
-FRIENDS_INVITE: '§6§lДрузья §8| §fИгрок §a%s §fотправил вам запрос на дружбу, принять: §a/friends accept'
-FRIENDS_INVITE_TITLE: '%s'
-FRIENDS_INVITE_SUBTITLE: '§6§lотправил вам запрос на дружбу'
-FRIENDS_INVITE_SEND: '§6§lДрузья §8| §fВы отправили запрос на дружбу игроку §a%s'
-FRIENDS_INVITE_EXPIRED: '§6§lДрузья §8| §fЗапрос на дружбу игроку §c%s §fистек'
-FRIENDS_DONT_HAVE_INVITES_FROM: '§6§lДрузья §8| §fУ вас §cнет запросов§f в друзья от игрока §c%s'
-FRIENDS_NEW_FRIEND: '§6§lДрузья §8| §fВы стали друзьями с %s'
-FRIENDS_YOU_REJECTED_REQUEST: '§6§lДрузья §8| §fВы отклонили запрос в друзья от игрока §c%s'
-FRIENDS_REQUEST_REJECTED: '§6§lДрузья §8| §fИгрок §c%s §fотклонил ваш запрос в друзья'
-FRIENDS_ONLINE: '§6§lДрузья §8| §fУ вас §a%s §fдрузей в сети'
-FRIEND_JOINED: '§6§lДрузья §8| §fВаш друг %s §fзашел на сервер'
-#BUNGEE
-MOTD: '§a§l⚝ §6§lFixMine §7§k|§b 1.12.2-1.17 §c▻ §a§lОТКРЫТЫЙ БЕТА-ТЕСТ{newline}§b➳ §fПоучаствуй в §c§lобновлении сервера'
-TAB_HEADER: 
-- '§6§lFix§f§lMine'
-- ''
-- '§fДонат услуги:'
-- '§ewww.fixmine.ru§f'
-- ''
-TAB_FOOTER:
-- ''
-- '§fОнлайн проекта: §a%s'
-- ''
-- '§fВы находитесь на режиме:'
-- '§d%s'
-#END_BUNGEE
-IGNORELIST_EMPTY: '§6§lСервер §8| §fВаш §cигнор-лист пуст'
-IGNORE_GUI_NAME: '§8Игнор-Лист'
-IGNORE_ITEM_NAME: '%s'
-IGNORE_ITEM_LORE:
-- ''
-- '§a▸ §a§lНажмите§7, чтобы перестать игнорировать'
-COMMAND_IGNORE_ADD_FORMAT: '§6§lСервер §8| §fИспользование: §a/ignore add [ник]'
-COMMAND_IGNORE_REMOVE_FORMAT: '§6§lСервер §8| §fИспользование: §a/ignore remove [ник]'
-COMMAND_IGNORE_HELP: 
-- '§7/ignore add [ник] §f- добавить игрока в список игнорируемых'
-- '§7/ignore remove [ник] §f- удалить игрока из списка игнорируемых'
-- '§7/ignore list §f- открыть список игнорируемых'
-IGNORE_LIMIT: '§6§lСервер §8| §fДостигнут ваш §cлимит §fигнорируемых игроков: §e3'
-#AUTH
-AUTH_CHANGEPASSWORD_FORMAT: '§6§lАвторизация §8| §fИспользование: §a/cp старый_пароль новый_пароль'
-AUTH_LICENSE_FORMAT: '§6§lАвторизация §8| §fИспользование: §a/license on|off §7(включить|выключить)'
-AUTH_LOGIN_FORMAT: '§6§lАвторизация §8| §fИспользование: §a/l пароль'
-AUTH_REGISTER_FORMAT: '§6§lАвторизация §8| §fИспользование: §a/reg пароль'
-AUTH_REGISTER_TIMEOUT: '§cВремя регистрации истекло, перезайдите на сервер'
-AUTH_LOGIN_TIMEOUT: '§cВремя авторизации истекло, перезайдите на сервер'
-AUTH_VK_CODE_TIMEOUT: '§cВремя подтвердждения входа через §9ВКонтакте §cистекло, перезайдите на сервер'
-AUTH_LOGIN_ERRORS: '§cВы допустили слишком много ошибок при вводе пароля, попробуйте позже'
-AUTH_BOSS_BAR_REGISTER: 'Время на регистрацию: §c§l%s §fсекунд'
-AUTH_BOSS_BAR_LOGIN: 'Время на вход: §c§l%s §fсекунд'
-AUTH_BOSS_BAR_VK_CODE: 'Время на подтверждение: §c§l%s §fсекунд'
-AUTH_CHAT_REGISTER: '§6§lАвторизация §8| §fЗарегистрируйтесь - §a/reg пароль'
-AUTH_CHAT_LOGIN: '§6§lАвторизация §8| §fВведите пароль - §a/l пароль'
-AUTH_CHAT_VK_CODE: '§6§lАвторизация §8| §fПодтвердите вход через §9§lВКонтакте'
-AUTH_NOT_REGISTERED: '§6§lАвторизация §8| §fСначала §cзарегистрируйтесь'
-AUTH_NOT_AUTHORIZED: '§6§lАвторизация §8| §fСначала §cвойдите в аккаунт'
-AUTH_MIN_PASSWORD_LENGTH: '§6§lАвторизация §8| §fМинимальная длина пароля §c%s §fсимволов'
-AUTH_MAX_PASSWORD_LENGTH: '§6§lАвторизация §8| §fМаксимальная длина пароля §c%s §fсимволов'
-AUTH_LOGIN_WRONG_PASSWORD: '§6§lАвторизация §8| §fВы ввели §cнеправильный §fпароль'
-AUTH_CHANGE_PASSWORD: '§6§lАвторизация §8| §fВы §aуспешно §fизменили пароль §8(посмотреть)'
-AUTH_CHANGE_PASSWORD_HOVER: '§fВаш пароль: §a%s'
-AUTH_LICENSE_OFF: '§6§lАвторизация §8| §fВы §cотключили §fлицензионный аккаунт'
-AUTH_LICENSE_ON: '§6§lАвторизация §8| §fВы §aвключили §fлицензионный аккаунт'
-AUTH_LICENSE_NOT_EXISTS: '§6§lАвторизация §8| §fВаш аккаунт уже помечен как §cне лицензионный'
-AUTH_LICENSE_DISABLE_HELP: '§6§lАвторизация §8| §fЧтобы отключить §cлицензионный аккаунт §fиспользуйте: §c§l/license off'
-AUTH_LICENSE_TO_CONFIRM: '§6§lАвторизация §8| §fПерезайдите в игру с §aлицензионного§f аккаунта, чтобы §eподтвердить'
-AUTH_LICENSE_NOT_PREMIUM:  '§6§lАвторизация §8| §fВаш аккаунт §cне является §fлицензионным'
-AUTH_ALREADY_LOGINED: '§6§lАвторизация §8| §fВы уже §aвошли'
-AUTH_VK_CODE_WAIT: '§6§lАвторизация §8| §fПодтвердите вход через §9§lВКонтакте'
-AUTH_LOGIN_MANY_ERRORS: '§cВы слишком много раз ввели неправильный пароль'
-AUTH_VK_CODE_CONFIRM: '§6§lАвторизация §8| §fПодтвердите вход через §9§lВКонтакте'
-AUTH_LOGIN_SUCCESS_NON_VK:
-- '§f'
-- '§6§lАвторизация §8| §fАвторизация §aуспешно §fпройдена'
-- '§f'
-- ' §c§l⚠ Внимание! §fВы не привязали страницу §6ВКонтакте§f к своему аккаунту'
-- ' Сделав это, вы сможете управлять аккаунтом и получать уведомления'
-- ' §aСделайте это прямо сейчас§f, написав в сообщения группы: §evk.com/fixmine_ru'
-- ' Команда - §6!аккаунт привязать [ник]'
-- '§f'
-AUTH_LOGIN_SUCCESS_WITH_VK: '§6§lАвторизация §8| §fАвторизация §aуспешно §fпройдена'
-AUTH_LOGOUT: '§aВы успешно вышли из аккаунта'
-AUTH_ALREADY_REGISTERED: '§6§lАвторизация §8| §fВы уже §aзарегистрированы'
-AUTH_REGISTER_SUCCESS: '§6§lАвторизация §8| §fВы успешно §aзарегистрировались §8(посмотреть)'
-AUTH_REGISTER_SUCCESS_HOVER: '§fВаш пароль: §a%s'
-AUTH_BLOCK_COMMANDS: '§6§lАвторизация §8| §fВы не можете использовать команды, сначала §cвойдите §fв аккаунт'
-VK_CHANGE_PASSWORD: '&#128110; Вы изменили пароль на: %s'
-VK_CODE_CONFIRM: '&#128110; Подтвердите вход в аккаунт'
-VK_NOTIFICATE_LOGIN:
-- '&#10133; Вы вошли в игру'
-- ''
-- '&#128270; IP: %3$s (%4$s)'
-- ''
-- 'Если это были не вы, то срочно заблокируйте аккаунт'  
-VK_KEYBOARD_HIDE: 'Клавиатура убрана, чтобы открыть клавиатуру заново используйте - !аккаунт'
-VK_KEYBOARD_SHOW: 'Управление аккаунтом'
-VK_NOT_BINDED: '&#9940; У вас нет привязанных аккаунтов'
-VK_USER_NOT_AUTHORIZED: 'Чтобы привязать аккаунт, вам необходимо войти в игру'
-VK_SET_BAN: 'Аккаунт успешно заблокирован'
-VK_UNSET_BAN: 'Аккаунт успешно разблокирован'
-VK_BIND_COMMAND_USE: 'Использование: !аккаунт привязать [ник]'
-VK_REQUEST_IS_SENDED: 'Код уже отправлен, подождите %s секунд перед повторным использованием'
-VK_PLAYER_NOT_ONLINE: 'Аккаунт не в игре'
-VK_NOTIFICATE_QUIT: '&#10134; Вы вышли из игры'
-VK_SET_DOUBLE_AUTH: 'Двухэтапная авторизация: включена'
-VK_UNSET_DOUBLE_AUTH: 'Двухэтапная авторизация: выключена'
-VK_SET_NOTIFICATION: 'Уведомления о присоединен��и/отсоединении включены'
-VK_UNSET_NOTIFICATION: 'Уведомления при присоединении/отсоединении выключены'
-VK_USER_IS_BINDED: 'К вашей странице уже привязан аккаунт'
-VK_PLAYER_IS_BINDED: 'Аккаунт %s уже привязан другим человеком'
-VK_RESTORE_PASSWORD: 'Ваш новый пароль: %s'
-VK_STATUS: 
-- '₪ Аккаунт: %s'
-- '₪ Сервер: %s'
-- '₪ IP: %s (%s)'
-- '₪ Последний вход: %s'
-- '₪ Уведомления: %s'
-- '₪ Блокировка: %s'
-- '₪ Двух-этапная авторизация: %s'
-- '₪ Лицензия: %s'
-VK_UNBIND: 'Игровой аккаунт %s успешно отвязан от ВКонтакте'
-VK_KICK: 'Аккаунт успешно кикнут с сервера'
-VK_SEND_CODE: 'На ваш игровой аккаунт был отправлен код, подтвердите его тут командой !аккаунт код [код]'
-VK_NO_REQUESTS: 'У вас нету активных кодов активации'
-VK_COMMAND_CODE_USE: 'Подсказка: !аккаунт код [код]'
-VK_CODE_IS_WRONG: 'Неверный код'
-VK_BIND: 'Аккаунт %s успешно привязан, напишите !аккаунт, для получения информации по управлению'
-VK_NO_DOUBLE_AUTH_REQUESTS: 'У вас нет запросов на вход'
-VK_COMMAND_COOLDOWN: '&#9940; Подождите %s секунд перед повторным использованием команды'
-VK_COMMAND_NOT_FOUND: '&#10060; Вы ввели неизвестную подкоманду'
-VK_HELP_WITH_AN_USER: 
-- 'Чтобы привязать игровой аккаунт к вашему аккаунту ВКонтакте, напишите: !аккаунт привязать [ник]'
-- ''
-- 'Во время привязки необходимо быть на сервере для получения кода подтверждения'
-VK_HELP_WITH_USER:
-- '&#9881; Управление аккаунтом:'
-- ' - !аккаунт восстановить - получить новый пароль'
-- ' - !аккаунт дваэтапа - включить двух-этапную авторизацию'
-- ' - !аккаунт статус - информация об аккаунте'
-- ' - !аккаунт уведомления - уведомления о заходах'
-- ' - !аккаунт кикнуть - отключить аккаунт от сервера'
-- ' - !аккаунт заблокировать - заблокировать аккаунт'
-- ' - !аккаунт отвязать - отвязать аккаунт от ВКонтакте'
-- '&#9000; Или воспользуйтесь встроенной клавиатурой'
-- ''
-- '&#128295; Настройки аккаунта:'
-- ' ● Уведомления: %s'
-- ' ● Блокировка аккаунта: %s'
-- ''
-- '&#128195; Информация об аккаунте:'
-- ' ❖ Ник: %s'
-- ' ❖ Привязан: %s'
-VK_COMMAND_ONLY_ADMIN: 'Данная команда доступна только для администрации'
-VK_AUTH_COMMAND_HELP:
-- '/auth unregister [ник]'
-- '/auth cp [ник] [новый_пароль]'
-VK_UNREGISTER_COMMAND_HELP: 'Использование: /auth unregister [ник]'
-VK_AUTH_COMMAND_FOR_ADMIN_ATTEMPT: 'Вы не можете использовать команду на администраторах'
-VK_ACCOUNT_UNREGISTER: 'Вы успешно сняли регистрацию с аккаунта %s'
-VK_CHANGEPASSWORD_COMMAND_HELP: 'Использование: /auth cp [ник] [новый_пароль]'
-VK_ACCOUNT_CHANGEPASSWORD: 'Вы успешно сменили пароль на аккаунте %s на %s'
-#END_AUTH
+
 PROFILE_MAIN_GUI_NAME: '§8Профиль (%s)'
 SETTINGS_GUI_NAME: '§8Профиль ▸ Настройки'
 REWARD_GUI_NAME: '§8Профиль ▸ Награды'
@@ -257,11 +23,10 @@ PROFILE_GUI_ITEM_NAME: '§6§lПрофиль'
 PROFILE_GUI_ITEM_LORE:
 - ''
 - ' §8▪ §fПривилегия: %s'
-- ' §8▪ §fКрышек: §6%s'
+- ' §8▪ §fЮнитов: §6%s'
 - ''
 - ' §8▪ §fУровень: §b%s'
 - ' §8▪ §fДрузей: §e%s§8/§a%s'
-- ' §8▪ §fСкин: §b%s'
 - ' §8▪ §fТитул: §c%s'
 - ''
 - ' §8▪ §fНаиграно времени: §a%s'
@@ -471,7 +236,7 @@ TITUL_DENY_WITH_PRICE_GUI_ITEM_LORE:
 - ' §8▪ §fРедкость: %s'
 - ' §8▪ §fСтатус: §cне доступен'
 - ''
-- ' §6↪ §fСтоимость: §e§l%s §fкрышек'
+- ' §6↪ §fСтоимость: §e§l%s §fюнитов'
 - ''
 - '§a▸ §a§lНажмите§7, чтобы купить'
 TITUL_DENY_GUI_ITEM_NAME: '§8Титул: %s'
@@ -596,43 +361,43 @@ PREFIX_DENY_GUI_ITEM_LORE:
 - ' §8▪ §fПрефикс: %1$s§lХРОНОС'
 - ' §8▪ §fСтатус: §cне доступен'
 - ''
-EXP_BOOSTER: '§6§lБустер §8| §fВам начислено §6+%s §fопыта за бустер §c§lx%s §fпривилегии %s'
-GOLD_BOOSTER: '§6§lБустер §8| §fВам начислено §e+%s §fзолота за бустер §c§lx%s §fпривилегии %s'
+EXP_BOOSTER: '§e§lБУСТЕР§7: §fВам начислено §6+%s §fопыта за бустер §cx§l%s §fпривилегии %s'
+GOLD_BOOSTER: '§e§lБУСТЕР§7: §fВам начислено §e+%s §fзолота за бустер §cx§l%s §fпривилегии %s'
 COMMAND_LEVEL:
-- '§6§lИгровой уровень §8| §fВаш текущий уровень: §b%s'
-- '§6§lИгровой уровень §8| §fДо следующего уровня: §d%s §fопыта'
-SETTING_NOT_ACCESS: '§6§lНастройки §8| §fУправление данной настройкой доступно от привилегии %s'
-SETTING_CHANGE_COOLDOWN: '§6§lНастройки §8| §fПодождите §e%s сек. §fперед повторной сменой настройки'
-TITUL_SELECT_COOLDOWN: '§6§lКастомизация §8| §fПодождите §e%s сек. §fперед повторной сменой титула'
-JOIN_MESSAGE_SELECT_COOLDOWN: '§6§lКастомизация §8| §fПодождите §e%s сек. §fперед повторной сменой сообщения при входе'
-QUIT_MESSAGE_SELECT_COOLDOWN: '§6§lКастомизация §8| §fПодождите §e%s сек. §fперед повторной сменой сообщения при выходе'
-PREFIX_SELECT_COOLDOWN: '§6§lКастомизация §8| §fПодождите §e%s сек. §fперед повторной сменой префикса'
-TITUL_SELECT: '§6§lТитулы §8| §fВы §aустановили §fтитул %s'
-JOIN_MESSAGE_SELECT: '§6§lКастомизация §8| §fВы §aустановили §fсообщение при входе §b#%s'
-QUIT_MESSAGE_SELECT: '§6§lКастомизация §8| §fВы §aустановили §fсообщение при выходе §b#%s'
-PREFIX_SELECT: '§6§lКастомизация §8| §fВы §aустановили §fпрефикс %s§lХРОНОС'
-NOT_NUMERIC: '§6§lСервер §8| §fЧисло введено §cневерно'
+- '§6§lИГРОВОЙ УРОВЕНЬ§7: §fВаш текущий уровень: §b%s'
+- '§6§lИГРОВОЙ УРОВЕНЬ§7: §fДо следующего уровня: §d%s §fопыта'
+SETTING_NOT_ACCESS: '§e§lНАСТРОЙКИ§7: §fУправление данной настройкой доступно от привилегии %s'
+SETTING_CHANGE_COOLDOWN: '§e§lНАСТРОЙКИ§7: §fПодождите §e%s сек. §fперед повторной сменой настройки'
+TITUL_SELECT_COOLDOWN: '§6§lКАСТОМ§e§lИЗАЦИЯ§7: §fПодождите §e%s сек. §fперед повторной сменой титула'
+JOIN_MESSAGE_SELECT_COOLDOWN: '§6§lКАСТОМ§e§lИЗАЦИЯ§7: §fПодождите §e%s сек. §fперед повторной сменой сообщения при входе'
+QUIT_MESSAGE_SELECT_COOLDOWN: '§6§lКАСТОМ§e§lИЗАЦИЯ§7: §fПодождите §e%s сек. §fперед повторной сменой сообщения при выходе'
+PREFIX_SELECT_COOLDOWN: '§6§lКАСТОМ§e§lИЗАЦИЯ§7: §fПодождите §e%s сек. §fперед повторной сменой префикса'
+TITUL_SELECT: '§a§lТИТУЛЫ§7: §fВы §aустановили §fтитул %s'
+JOIN_MESSAGE_SELECT: '§6§lКАСТОМ§e§lИЗАЦИЯ§7: §fВы §aустановили §fсообщение при входе §b#%s'
+QUIT_MESSAGE_SELECT: '§6§lКАСТОМ§e§lИЗАЦИЯ§7: §fВы §aустановили §fсообщение при выходе §b#%s'
+PREFIX_SELECT: '§6§lКАСТОМ§e§lИЗАЦИЯ§7: §fВы §aустановили §fпрефикс %s§lХРОНОС'
+NOT_NUMERIC: '§6§lAVI§e§lFORCE§7: §fЧисло введено §cневерно'
 LEVEL_UP:
 - ''
 - '§8§m                                        §r'
 - ''
-- '         §a§l§kX§r §6§lУРОВЕНЬ ПОВЫШЕН §a§l§kX§r'
-- '           Ваш новый уровень: §d§l%s'
+- '         §e§l§k|||§r §6§lУРОВЕНЬ ПОВЫШЕН §e§l§k|||§r'
+- '           Ваш новый уровень: §6§l%s'
 - ''
 - '§8§m                                        §r'
-COINS_INFO: '§6§lКрышки §8| §fУ вас на балансе: §a%s §fкрышек'
-COINS_GET_USE: '§6§lКрышки §8| §fИспользование: §a/coins get [ник]'
-COINS_GET_SUCCESS: '§6§lКрышки §8| §fУ игрока §e%s §a%s §fкрышек'
+COINS_INFO: '§d§lЮНИТЫ§7: §fУ вас на балансе: §d%s §fюнитов'
+COINS_GET_USE: '§d§lЮНИТЫ§7: §fИспользование: §a/coins get [ник]'
+COINS_GET_SUCCESS: '§d§lЮНИТЫ§7: §fУ игрока §e%s §a%s §fюнитов'
 COINS_GIVE_USE: '§6§lКрышк §8| §fИспользование: §a/coins give [ник] [количество]'
-COINS_GIVE_SUCCESS: '§6§lКрышки §8| §fИгроку §e%s §fвыдано §a%s §fкрышек'
-COINS_SET_USE: '§6§lКрышки §8| §fИспользование: §a/coins set [ник] [количество]'
-COINS_SET_SUCCESS: '§6§lКрышки §8| §fИгроку §e%s §fустановлено §a%s §fкрышек'
-COINS_TAKE_USE: '§6§lКрышки §8| §fИспользование: §a/coins take [ник] [количество]'
-COINS_TAKE_SUCCESS: '§6§lКрышки §8| §fУ игрока §e%s §fзабрано §a%s §fкрышек'
+COINS_GIVE_SUCCESS: '§d§lЮНИТЫ§7: §fИгроку §d%s §fвыдано §d%s §fюнитов'
+COINS_SET_USE: '§d§lЮНИТЫ§7: §fИспользование: §a/coins set [ник] [количество]'
+COINS_SET_SUCCESS: '§d§lЮНИТЫ§7: §fИгроку §d%s §fустановлено §a%s §fюнитов'
+COINS_TAKE_USE: '§d§lЮНИТЫ§7: §fИспользование: §a/coins take [ник] [количество]'
+COINS_TAKE_SUCCESS: '§d§lЮНИТЫ§7: §fУ игрока §d%s §fзабрано §a%s §fюнитов'
 COINS_HELP:
 - ''
-- 'Узнать сколько у игрока крышек - §6/coins get [ник]'
-- 'Выдать игроку крышек - §6/coins give [ник] количество'
+- 'Узнать сколько у игрока юнитов - §6/coins get [ник]'
+- 'Выдать игроку юнитов - §6/coins give [ник] количество'
 - 'Установить игроку крышки - §6/coins set [ник] количество'
 - 'Забрать у игрока крышки - §6/coins take [ник] количество'
 - ''
@@ -655,9 +420,9 @@ GOLD_HELP:
 COMMAND_RELOAD_LANG_USE: '§6§lЛокализация §8| §fПерезагрузить локализацию плагина: §a/lang reload [название плагина]'
 RELOAD_LANG_PLUGIN_NOT_FOUND: '§6§lЛокализация §8| §fПлагин §cне загружен §fили §cне имеет локализации'
 LANG_RELOAD: '§6§lЛокализация §8| §fВы перезагрузили локализацию'
-TITUL_IS_SELECTED: '§6§lТитулы §8| §fУ вас уже §aустановлен §fэтот титул'
-TITUL_NO_COINS: '§6§lТитулы §8| §fУ вас §cнедостаточно §fкрышек, необходимо: §e%s §fкрышек.'
-TITUL_BUY: '§6§lТитулы §8| §fВы §aкупили §fтитул %s'
+TITUL_IS_SELECTED: '§a§lТИТУЛЫ§7: §fУ вас уже §aустановлен §fэтот титул'
+TITUL_NO_COINS: '§a§lТИТУЛЫ§7: §fУ вас §cнедостаточно §fюнитов, необходимо: §e%s §fюнитов.'
+TITUL_BUY: '§a§lТИТУЛЫ§7: §fВы §aкупили §fтитул %s'
 
 TITUL_CLEAR_NAME: '§4§l✗ §fОчистить'
 TITUL_CLEAR_LORE:
@@ -666,9 +431,9 @@ TITUL_CLEAR_LORE:
 - ''
 - '§a▸ §a§lНажмите§7, чтобы убрать'
 
-TITUL_CLEAR: '§6§lТитулы §8| §fВы §aубрали §fустановленный титул'
-TITUL_NOT_SELECTED: '§6§lТитулы §8| §fУ вас §cне установлен §fтитул'
-TITUL_NOT_OPENED: '§6§lТитулы §8| §fДанный титул §cнельзя купить§f, его можно получить из §aсоответствующего кейса'
+TITUL_CLEAR: '§a§lТИТУЛЫ§7: §fВы §aубрали §fустановленный титул'
+TITUL_NOT_SELECTED: '§a§lТИТУЛЫ§7: §fУ вас §cне установлен §fтитул'
+TITUL_NOT_OPENED: '§a§lТИТУЛЫ§7: §fДанный титул §cнельзя купить§f, его можно получить из §aсоответствующего кейса'
 COMMAND_ONLY_PLAYERS: 'This command for only players'
 EFFECTS_GUI_NAME: '§8Эффекты'
 ARROWS_EFFECTS_GUI_NAME: '§8Эффекты ▸ Стрелы'
@@ -732,7 +497,7 @@ EFFECT_NOT_BUYED_LORE:
 - ''
 - ' §8▪ §fСтатус: §cне доступен'
 - ''
-- ' §6↪ §fСтоимость: §e§l%s §fкрышек'
+- ' §6↪ §fСтоимость: §e§l%s §fюнитов'
 - ''
 - '§a▸ §a§lНажмите§7, чтобы купить'
 EFFECT_CLEAR_NAME: '§4§l✗ §fОчистить'
@@ -742,13 +507,13 @@ EFFECT_CLEAR_LORE:
 - ''
 - '§a▸ §a§lНажмите§7, чтобы убрать'
 
-EFFECT_IS_SELECTED: '§6§lЭффекты §8| §fУ вас уже §aвыбран §fданный эффект. Чтобы снять эффект, нажмите на иконку барьера'
-EFFECT_SELECT: '§6§lЭффекты §8| §fВы §aустановили §fэффект %s §fдля §e%s'
-EFFECTS_NO_COINS: '§6§lЭффекты §8| §fУ вас §cнедостаточно §fкрышек. Стоимость: §e§l%s §fкрышек'
-SOUL_NO_COINS: '§6§lДухи §8| §fУ вас §cнедостаточно §fкрышек. Стоимость: §e§l%s §fкрышек'
-EFFECT_BUY: '§6§lЭффекты §8| §fВы §aкупили §fэффект %s §fдля §e%s'
-EFFECT_NOT_SELECTED: '§6§lЭффекты §8| §fУ вас §cне установлен§f эффект на §e%s'
-EFFECT_CLEAR: '§6§lЭффекты §8| §fВы §aубрали §fэффект с §e%s'
+EFFECT_IS_SELECTED: '§b§lЭФФЕКТЫ§7: §fУ вас уже §aвыбран §fданный эффект. Чтобы снять эффект, нажмите на иконку барьера'
+EFFECT_SELECT: '§b§lЭФФЕКТЫ§7: §fВы §aустановили §fэффект %s §fдля §e%s'
+EFFECTS_NO_COINS: '§b§lЭФФЕКТЫ§7: §fУ вас §cнедостаточно §fюнитов. Стоимость: §e§l%s §fюнитов'
+SOUL_NO_COINS: '§6§lДУХИ§7: §fУ вас §cнедостаточно §fюнитов. Стоимость: §e§l%s §fюнитов'
+EFFECT_BUY: '§b§lЭФФЕКТЫ§7: §fВы §aкупили §fэффект %s §fдля §e%s'
+EFFECT_NOT_SELECTED: '§b§lЭФФЕКТЫ§7: §fУ вас §cне установлен§f эффект на §e%s'
+EFFECT_CLEAR: '§b§lЭФФЕКТЫ§7: §fВы §aубрали §fэффект с §e%s'
 
 SOUL_SPEED_NAME: §bСкорость
 SOUL_SPEED_LORE:
@@ -829,8 +594,8 @@ SOUL_CLEAR_LORE:
 - ' §8▪ §fУбрать второго духа: §a§lПКМ'
 - ''
 - '§a▸ §a§lНажмите§7, чтобы убрать'
-SOUL_CLEAR: '§6§lДухи §8| §fВы убрали §a%s §sдуха'
-SOUL_NOT_SELECTED: '§6§lДухи §8| §fУ вас §cне установлен §f%s дух'
+SOUL_CLEAR: '§6§lДУХИ§7: §fВы убрали §a%s §sдуха'
+SOUL_NOT_SELECTED: '§6§lДУХИ§7: §fУ вас §cне установлен §f%s дух'
 SOUL_IS_SELECTED_LORE:
 - ' §8▪ §fСтатус: §aвыбран'
 - ' §8▪ §fУровень: §6%s'
@@ -838,7 +603,7 @@ SOUL_IS_SELECTED_LORE:
 SOUL_NOT_BUYED_LORE:
 - ' §8▪ §fСтатус: §cне куплен'
 - ''
-- ' §6↪ §fСтоимость: §e§l%s §fкрышек'
+- ' §6↪ §fСтоимость: §e§l%s §fюнитов'
 - ''
 - '§a▸ §a§lНажмите§7, чтобы купить'
 SOUL_IS_BUYED_LORE:
@@ -849,11 +614,11 @@ SOUL_IS_BUYED_LORE:
 - ' §8▪ §fУстановить как второго: §a§lПКМ'
 - ''
 - '§a▸ §a§lНажмите§7, чтобы установить'
-SOUL_IS_SELECTED: '§6§lДухи §8| §fУ вас уже §aустановлен §fданный дух'
-SOUL_RIGHT_NO_PERMISSIONS: '§6§lДухи §8| §fУстановка двух духов одновременно §cдоступна §fот привилегии %s'
-NO_PERMISSIONS: '§6§lFixMine §8| §fДанная возможность §cдоступна §fот привилегии %s'
-SOUL_SELECT: '§6§lДухи §8| §fВы §aустановили §fдуха %s §fкак §e%s'
-BUY_SOUL: '§6§lДухи §8| §fВы §aкупили §fдуха %s'
+SOUL_IS_SELECTED: '§6§lДУХИ§7: §fУ вас уже §aустановлен §fданный дух'
+SOUL_RIGHT_NO_PERMISSIONS: '§6§lДУХИ§7: §fУстановка двух духов одновременно §cдоступна §fот привилегии %s'
+NO_PERMISSIONS: '§6§lAVI§e§lFORCE§7: §fДанная возможность §cдоступна §fот привилегии %s'
+SOUL_SELECT: '§6§lДУХИ§7: §fВы §aустановили §fдуха %s §fкак §e%s'
+BUY_SOUL: '§6§lДУХИ§7: §fВы §aкупили §fдуха %s'
 SOUL_LEVEL_1_NAME: '§cБронзовый'
 SOUL_LEVEL_2_NAME: '§aСеребряный'
 SOUL_LEVEL_3_NAME: '§6Золотой'
@@ -864,7 +629,7 @@ SOUL_LEVEL_LORE:
 - ' §8▪ §fУровень: §e%s§7/§a4'
 - ' §8▪ §fСледующий уровень: §a%s §8(%s§8)'
 - ''
-- ' §6↪ §fСтоимость повышения: §e§l%s §fкрышек'
+- ' §6↪ §fСтоимость повышения: §e§l%s §fюнитов'
 - ''
 - '§a▸ §a§lНажмите§7, чтобы повысить уровень'
 SOUL_MAX_LEVEL_LORE:
@@ -872,11 +637,11 @@ SOUL_MAX_LEVEL_LORE:
 - ' §8▪ §fУровень: §a%s §8(%s§8)'
 - ''
 - ' §a↪ §fДостигнут максимальный уровень'
-SOUL_NO_COINS_UPGRADE: '§6§lДухи §8| §fУ вас §cнедостаточно §fкрышек. Для повышения уровня до §a%s§f, необходимо: §e§l%s §fкрышек'
-SOUL_UPGRADE: '§6§lДухи §8| §fВы §aповысили §fуровень духа до §a%s §8(%s§8)'
-SOUL_NOT_BUYED: '§6§lДухи §8| §fУ вас §cне куплен §fданный дух'
-SOUL_SELECT_COOLDOWN: '§6§lДухи §8| §fПодождите §e%s §fсек. перед повторной установкой духа'
-EFFECT_SELECT_COOLDOWN: '§6§lЭффекты §8| §fПодождите §e%s §fсек. перед повторной установкой эффекта'
+SOUL_NO_COINS_UPGRADE: '§6§lДУХИ§7: §fУ вас §cнедостаточно §fюнитов. Для повышения уровня до §a%s§f, необходимо: §e§l%s §fюнитов'
+SOUL_UPGRADE: '§6§lДУХИ§7: §fВы §aповысили §fуровень духа до §a%s §8(%s§8)'
+SOUL_NOT_BUYED: '§6§lДУХИ§7: §fУ вас §cне куплен §fданный дух'
+SOUL_SELECT_COOLDOWN: '§6§lДУХИ§7: §fПодождите §e%s §fсек. перед повторной установкой духа'
+EFFECT_SELECT_COOLDOWN: '§b§lЭФФЕКТЫ§7: §fПодождите §e%s §fсек. перед повторной установкой эффекта'
 LOBBY_CHAT_FORMAT: '{prefix}§f{player} §8[§a{level}§8] » §7{message}'
 COMMAND_SKIN_FORMAT:
 - '§6§lСкины §8| §fУстановить скин: §a/skin [ник]'
@@ -884,18 +649,15 @@ COMMAND_SKIN_FORMAT:
 SKIN_HAS_BEEN_RESET: '§6§lСкины §8| §fВы успешно §cочистили скин'
 SKIN_NAME_NOT_CORRECTED: '§6§lСкины §8| §cНеккоректный ник§f, минимальная длина ника - §a3§f, максимальная - §a16'
 SKIN_HAS_BEEN_UPDATED: '§6§lСкины §8| §fВы успешно сменили скин на §a%s'
-SKIN_REQUEST_EXCEPTION: '§6§lСкины §8| §fОшибка получения скина, попробуйте позже'
-SKIN_IS_DEFAULT: '§6§lСкины §8| §fВы пытаетесь установить стандартный скин, используйте §a/skin reset'
-SKIN_ALREADY_SET: '§6§lСкины §8| §fУ вас §aуже установлен §fданный скин'
 #ONEBLOCK
-ONEBLOCK_BOARD_NAME: ' §6§lFixMine §8» §e§lОдинБлок '
+ONEBLOCK_BOARD_NAME: ' §8§l» §6§lAviForce §e§lОдинБлок '
 ONEBLOCK_BOARD_ISLAND_LINE: '   Фаза острова: §d'
 ONEBLOCK_BOARD_ACHIEVEMENTS_LINE: '   Достижения: '
 
-SHOP_SELL_NO_ITEMS: §6§lМагазин §8| §fУ вас §cнет §fнеобходимых предметов
+SHOP_SELL_NO_ITEMS: '§b§lМАГАЗИН§7: §fУ вас §cнет §fнеобходимых предметов'
 SHOP_HOVER_TEST: §fНажмите сюда, §fчтобы открыть этот магазин
 SHOP_FORMAT_NO_ARGS: /shop <название магазина>
-NO_PERMS_GROUP: §6§lFixMine §8| §fДанная возможность доступна от привилегии %s
+NO_PERMS_GROUP: '§b§lМАГАЗИН§7: §fДанная возможность доступна от привилегии %s'
 PROFILE_BACK_ITEM_NAME: §cВернуться назад
 PROFILE_BACK_ITEM_LORE2:
 - ''
@@ -973,10 +735,10 @@ SHOP_LORE_CHANGED:
 CANCEL_NAME: §cОтменить
 CONFIRMED_NAME: Подтвердить
 SHOP_FORMAT: /shop <название магазина>
-SHOP_NAMES: '§6§lМагазин §8| §fДоступные магазины: '
+SHOP_NAMES: '§b§lМАГАЗИН§7: §fДоступные магазины: '
 SHOP_NOT_FOUND: §cОшибка, магазин %s не найден
-SHOP_ALL_ITEMS_SELLED: §6§lМагазин §8| §fВы успешно продали §7%s §fx §7%s §fза §a%s$
-SHOP_ALL_ITEMS_BUY: §6§lМагазин §8| §fВы успешно купили §7%s §fx §7%s §fза §a%s$
+SHOP_ALL_ITEMS_SELLED: '§b§lМАГАЗИН§7: §fВы успешно продали §7%s §fx §7%s §fза §a%s$'
+SHOP_ALL_ITEMS_BUY: '§b§lМАГАЗИН§7: §fВы успешно купили §7%s §fx §7%s §fза §a%s$'
 SKYBLOCK_SHOP_BLOCKS: Магазин блоков
 SKYBLOCK_SHOP_FARMING: Магазин фермерства
 SKYBLOCK_SHOP_RES: Магазин ценных ресурсов
@@ -985,18 +747,18 @@ SKYBLOCK_SHOP_LOOT: Магазин различных предметов
 SKYBLOCK_SHOP_CUSTOM: Магазин редких предметов
 
 #SURVIVAL
-SURVIVAL_BOARD_NAME: ' §6§lFixMine §8» §e§lВыживание '
+SURVIVAL_BOARD_NAME: '§6§lAVI§e§lFORCE §e⚔ §6§lГРИФ-1'
 SURVIVAL_BOARD_DATE_LINE: '    §7'
 SURVIVAL_BOARD_GROUP_LINE: ' Группа: '
-SURVIVAL_BOARD_PROFILE_LINE: ' §e§lПрофиль:'
-SURVIVAL_BOARD_LEVEL_LINE: '   Уровень: §d'
-SURVIVAL_BOARD_COINS_LINE: '   Крышки: §b'
-SURVIVAL_BOARD_GOLD_LINE: '   Золото: §6'
-SURVIVAL_BOARD_MONEY_LINE: '   Монеты: §e'
-SURVIVAL_BOARD_STATS_LINE: '   У/С: §a'
-SURVIVAL_BOARD_BOOSTER_LINE: '   Бустер: §c'
-SURVIVAL_BOARD_LOCAL_ONLINE_LINE: ' Онлайн режима: §a'
-SURVIVAL_BOARD_SITE_LINE: '     §ewww.FixMine.ru'
+SURVIVAL_BOARD_PROFILE_LINE: ' §6§lИнформация§7:'
+SURVIVAL_BOARD_LEVEL_LINE: '§6§l┏ §fУровень: §7★'
+SURVIVAL_BOARD_COINS_LINE: '§6§l┃ §fЮниты: §d§l☄§d'
+SURVIVAL_BOARD_GOLD_LINE: '§6§l┃ §fЗолото: §e✰§6'
+SURVIVAL_BOARD_MONEY_LINE: '§6§l┃ §fМонеты: §e⛂§e'
+SURVIVAL_BOARD_STATS_LINE: '§6§l┃ §fУ/С: §7§l⚔§a'
+SURVIVAL_BOARD_BOOSTER_LINE: '§6§l┗ §fБустер: §c'
+SURVIVAL_BOARD_LOCAL_ONLINE_LINE: ' Онлайн режима: §a§l✓§a'
+SURVIVAL_BOARD_SITE_LINE: '   §awww.AviForce.fun'
 
 SURVIVAL_MENU_ITEM_NAME: '§6§lГлавное меню §7(ПКМ)'
 SURVIVAL_MENU_ITEM_LORE:
@@ -1004,37 +766,37 @@ SURVIVAL_MENU_ITEM_LORE:
 - ' §7Данное меню поможет вам'
 - ' §7ознакомиться с режимом'
 
-SURVIVAL_JOIN_TITLE: '§6§l◀ §6§lFix§f§lMine §6§l▶'
-SURVIVAL_JOIN_SUBTITLE: '§fДобро пожаловать на §e§lвыживание'
+SURVIVAL_JOIN_TITLE: '§6§lᑀ §6§lAVI§e§lFORCE §e§lᑅ'
+SURVIVAL_JOIN_SUBTITLE: '§fДобро пожаловать на §e§lГриферский-1'
 
 HOLOGRAM_KILLS_TOP_LINES:
-- '§8§l« §a§lТоп по убийствам §8§l»'
-- '§fСамые сильные игроки'
+- '§8↝ §c§lТоп по убийствам §8↜'
+- '§c⚔ §fСамые сильные игроки'
 - '{time}'
-- '§7Нажмите здесь, чтобы сменить'
-- '{item:351:10}'
+- '§7[ПКМ] для смены статистики'
+- '{item:BLAZE_POWDER}'
 HOLOGRAM_DEATHS_TOP_LINES:
-- '§8§l« §c§lТоп по смертям §8§l»'
-- '§fСамые слабые игроки'
+- '§8↝ §b§lТоп по смертям §8↜'
+- '§b☠ §fСамые слабые игроки'
 - '{time}'
-- '§7Нажмите здесь, чтобы сменить'
-- '{item:351:1}'
+- '§7[ПКМ] для смены статистики'
+- '{item:397}'
 HOLOGRAM_MONEY_TOP_LINES:
-- '§8§l« §e§lТоп по монетам §8§l»'
-- '§fСамые богатые игроки'
+- '§8↝ §6§lТоп по монетам §8↜'
+- '§e⛂ §fСамые богатые игроки'
 - '{time}'
-- '§7Нажмите здесь, чтобы сменить'
-- '{item:DOUBLE_PLANT}'
-JOBS_MINER_NOT_ORE: '§6§lРабота §8| §fВы можете добывать только §cруду'
-JOBS_GAMEMODE: '§6§lРабота §8| §fВы должны находиться в режиме §cвыживания'
-JOBS_MINER_EARNED: '§6§lРабота §8| §fВы добыли руду и получили §e%s⛂§f. Получите деньги у шахтера §7(ПКМ)'
-JOBS_MINER_NO_ORE: '§6§lРабота §8| §fУ вас §cнет руды§f для сдачи'
-JOBS_MINER_CANCEL: '§6§lРабота §8| §fВы сдали руду и получили §e%s§6⛂§f'
-JOBS_WOODCUTTER_NO_WOODS: '§6Работа §8| §fУ вас §cнет деревьев§f для сдачи'
-JOBS_WOODCUTTER_CANCEL: '§6Работа §8| §fВы сдали деревья и получили §e%s§6⛂'
-JOBS_WOODCUTTER_NOT_WOOD: '§6Работа §8| §fВы можете рубить только §cдерево'
-JOBS_WOODCUTTER_BREAK_WOOD: '§6Работа §8| §fВы получили §e%2$s⛂§f. Осталось сломать §e%1$s блоков §fчтобы срубить дерево целиком'
-JOBS_WOODCUTTER_BREAK_TREE: '§6Работа §8| §fВы срубили дерево и получили §e%s⛂§f. §aПолучите §fденьги у лесоруба §7(ПКМ)'
+- '§7[ПКМ] для смены статистики'
+- '{item:348}'
+JOBS_MINER_NOT_ORE: '§e§lШАХТЕР§7: §fВы можете добывать только §cруду'
+JOBS_GAMEMODE: '§e§lШАХТЕР§7: §fВы должны находиться в режиме §cвыживания'
+JOBS_MINER_EARNED: '§e§lШАХТЕР§7: §fВы добыли руду и получили §e%s⛂§f. Получите деньги у шахтера §7(ПКМ)'
+JOBS_MINER_NO_ORE: '§e§lШАХТЕР§7: §fУ вас §cнет руды§f для сдачи'
+JOBS_MINER_CANCEL: '§e§lШАХТЕР§7: §fВы сдали руду и получили §e%s§6⛂§f'
+JOBS_WOODCUTTER_NO_WOODS: '§a§lЛЕСОРУБ§7: §fУ вас §cнет деревьев§f для сдачи'
+JOBS_WOODCUTTER_CANCEL: '§a§lЛЕСОРУБ§7: §fВы сдали деревья и получили §e%s§6⛂'
+JOBS_WOODCUTTER_NOT_WOOD: '§a§lЛЕСОРУБ§7: §fВы можете рубить только §cдерево'
+JOBS_WOODCUTTER_BREAK_WOOD: '§a§lЛЕСОРУБ§7: §fВы получили §e%2$s⛂§f. Осталось сломать §e%1$s блоков §fчтобы срубить дерево целиком'
+JOBS_WOODCUTTER_BREAK_TREE: '§a§lЛЕСОРУБ§7: §fВы срубили дерево и получили §e%s⛂§f. §aПолучите §fденьги у лесоруба §7(ПКМ)'
 JOBS_BOARD_MINER_LINE: ' Работа §6§lшахтера'
 JOBS_BOARD_WOODCUTTER_LINE: ' Работа §6§lлесоруба'
 JOBS_BOARD_SALARY_LINE: '   Зарплата: §a'
@@ -1043,9 +805,9 @@ JOBS_BOARD_BOOSTER_LINE: '   Бустер: §c'
 JOBS_BOARD_COMBO_LINE: '   Комбо: §d'
 JOBS_BOARD_STATS_LINE: ' §e§lСтатистика'
 MINER_TOP_HEADER: '§6§lТОП ШАХТЕРОВ'
-WOODCUTTER_TOP_HEADER: '§6§lТОП ЛЕСОРУБОВ'
+WOODCUTTER_TOP_HEADER: '§a§lТОП ЛЕСОРУБОВ'
 #LOBBY
-LOBBY_BOARD_NAME: '§6§lFixMine §8» §e§lХаб'
+LOBBY_BOARD_NAME: '§8§l» §6§lAviForce §e§lХаб'
 LOBBY_BOARD_DATE_LINE: '    §7'
 LOBBY_BOARD_GROUP_LINE: ' Группа: '
 LOBBY_BOARD_PROFILE_LINE: ' §e§lПрофиль:'
@@ -1055,10 +817,10 @@ LOBBY_BOARD_GOLD_LINE: '   Золото: §6'
 LOBBY_BOARD_PRESENTS_LINE: '   Подарки: '
 LOBBY_BOARD_BOOSTER_LINE: ' Активный бустер: §c'
 LOBBY_BOARD_GLOBAL_ONLINE_LINE: ' Общий онлайн: §a'
-LOBBY_BOARD_SITE_LINE: '     §ewww.FixMine.ru'
+LOBBY_BOARD_SITE_LINE: '   §awww.AviForce.fun'
 
-LOBBY_JOIN_TITLE: '§6§l◀ §6§lFix§f§lMine §6§l▶'
-LOBBY_JOIN_SUBTITLE: '§fВесеннее обновление!'
+LOBBY_JOIN_TITLE: '§6§lᑀ §6§lAVI§e§lFORCE §e§lᑅ'
+LOBBY_JOIN_SUBTITLE: '§fДобро пожаловать, выбирайте режим!'
 
 PROFILE_ITEM_NAME: '§6§lПрофиль %s §7(ПКМ)'
 PROFILE_ITEM_LORE:
@@ -1086,47 +848,46 @@ HIDER_DISABLE_LORE:
 - ''
 - '§7Используйте этот предмет,'
 - '§7чтобы скрыть всех игроков'
-SETTING_HIDER_COOLDOWN: '§6§lНастройки §8| §fПодождите §e%s §fсек. перед повторным использованием'
-SETTING_CHAT_IS_DISABLED: '§6§lНастройки §8| §fУ вас §cотключен §fчат, чтобы включить используйте - §a/settings'
-SETTING_DONATE_CHAT_IS_DISABLED: '§6§lНастройки §8| §fУ вас §cотключен §fдонат-чат, чтобы включить используйте - §a/settings'
-COMMAND_DONATE_CHAT_FORMAT: '§6§lДонат-Чат §8| §fИспользование: §a/dc сообщение'
-COMMAND_STAFF_CHAT_FORMAT: '§6§lСтафф-Чат §8| §fИспользование: §a/sc сообщение'
-PRESENTS_COMPLETE: '§6§lПодарки §8| §a§lПоздравляем! §fВы смогли отыскать все новогодние подарки!'
-PRESENTS_IS_COMPLETED: '§6§lПодарки §8| §fВы §cуже §fотыскали все подарки'
-PRESENTS_IS_FINDED: '§6§lПодарки §8| §fВы §cуже §fнашли данный подарок'
-PRESENTS_FIND: '§6§lПодарки §8| §a§lПоздравляем! §fВы нашли подарок §7[§e%s§8/§a%s§7]'
+SETTING_HIDER_COOLDOWN: '§e§lНАСТРОЙКИ§7: §fПодождите §e%s §fсек. перед повторным использованием'
+SETTING_CHAT_IS_DISABLED: '§e§lНАСТРОЙКИ§7: §fУ вас §cотключен §fчат, чтобы включить используйте - §a/settings'
+
+PRESENTS_COMPLETE: '§a§lПОДАРКИ§7: §a§lПоздравляем! §fВы смогли отыскать все новогодние подарки!'
+PRESENTS_IS_COMPLETED: '§a§lПОДАРКИ§7: §fВы §cуже §fотыскали все подарки'
+PRESENTS_IS_FINDED: '§a§lПОДАРКИ§7: §fВы §cуже §fнашли данный подарок'
+PRESENTS_FIND: '§a§lПОДАРКИ§7: §a§lПоздравляем! §fВы нашли подарок §7[§e%s§8/§a%s§7]'
 PRESENTS_FIND_ACTION_BAR: '§e+§6§l%s §eзолота §8| §e+§6§l%s §eопыта'
 PRESENTS_COMPLETE_TITLE: '§6§lПоздравляем!'
 PRESENTS_COMPLETE_SUBTITLE: '§fВы отыскали §aвсе §fновогодние подарки'
 BOSS_BAR_LOBBY:
 - '    §f§lВЕСЕННИЕ §c§lСКИДКИ! §f§lВСЕ ЦЕНЫ БЫЛИ §a§lСНИЖЕНЫ §f§lНА §6§l30%%'
-- '    §f§lПОКУПКА §e§lДОНАТА §f§lНА САЙТЕ §7► §6§lFIXMINE.RU'
-- '    §9§lDISCORD §f§lСЕРВЕРА §7► §d§lDISCORD.FIXMINE.RU'
-- '    §f§lГРУППА СЕРВЕРА §9§lВКОНТАКТЕ §7► §b§lVK.COM/FIXMINE_RU'
+- '    §f§lПОКУПКА §e§lДОНАТА §f§lНА САЙТЕ §7► §6§lAVIFORCE.FUN'
+- '    §f§lПОЛУЧИТЕ БЕСПЛАТНЫЕ §e§lДОНАТ-КЕЙСЫ §f§lИ §6§lЮНИТЫ §7► §e§l/GETFORCE'
+- '    §f§lГРУППА СЕРВЕРА §9§lВКОНТАКТЕ §7► §b§lVK.COM/AVIFORCEMC'
+- '    §f§lСЕРВЕР ДЛЯ §a§lНАСТОЯЩЕГО §f§lГРИФЕРА.'
 HOLOGRAM_LEVEL_TOP_LINES:
-- '§8§l« §d§lТоп по уровням §8§l»'
-- '§fСамые прокаченные игроки'
+- '§8↝ §d§lТоп по уровням §8§l»'
+- '§d☘ §fСамые прокаченные игроки'
 - '{time}'
-- '§7Нажмите здесь, чтобы сменить'
+- '§7[ПКМ] для смены статистики'
 - '{item:EXP_BOTTLE}'
 HOLOGRAM_ONLINE_TOP_LINES:
-- '§8§l« §6§lТоп по онлайну §8§l»'
-- '§fСамые активные игроки'
+- '§8↝ §a§lТоп по онлайну §8↜'
+- '§a♲ §fСамые активные игроки'
 - '{time}'
-- '§7Нажмите здесь, чтобы сменить'
-- '{item:347}'
+- '§7[ПКМ] для смены статистики'
+- '{item:224}'
 PARKOUR_START_HOLOGRAM_LINES:
-- '§d§lПАРКУР §8| §a§lНачало'
+- '§d§lПаркур §8| §a§lНачало'
 - 'Награда:'
 - '    §6§l500 §fзолота §8| §e500 §fопыта'
 - '{item:COMPASS}'
 PARKOUR_END_HOLOGRAM_LINES:
-- '§d§lПАРКУР §8| §c§lКонец'
+- '§d§lПаркур §8| §c§lКонец'
 - '{item:DIAMOND}'
 PARKOUR_CHECKPOINT_HOLOGRAM_LINES:
-- '§d§lПАРКУР §8| §f§lТочка §e§l#%s'
+- '§d§lПаркур §8| §f§lТочка §e§l#%s'
 - '{item:347}'
-PARKOUR_HOLO_TOP_HEADER: '§e§lТоп паркуристов'
+PARKOUR_HOLO_TOP_HEADER: '§d§lТоп паркуристов'
 PARKOUR_ACTION_BAR: '§e§lПАРКУР §7↠ §fЛучшее время: §a%s §8| §fТекущее: §a%s'
 PARKOUR_BACK_ITEM_NAME: '§6§lВернуться на последнюю точку §7(ПКМ)'
 PARKOUR_BACK_ITEM_LORE:
@@ -1159,9 +920,9 @@ LEVEL_REWARD_LORE3:
 LEVEL_REWARD_LORE4:
 - ''
 - ' §8▪ §fСтатус: §bполучена'
-LEVEL_NO_LEVEL: '§6§lУровни §8| §cОшибка! §fваш уровень слишком мал для получения данной награды!'
-LEVEL_ALREADY_GIVE: '§6§lУровни §8| §cОшибка! §fвы уже получили данную награду!'
-LEVEL_NO_OTHER_REWARD: '§6§lУровни §8| §cОшибка! §fперед получением этой награды вы обязаны получить все предыдущие!'
+LEVEL_NO_LEVEL: '§6§lУРОВНИ§7: §cОшибка! §fваш уровень слишком мал для получения данной награды!'
+LEVEL_ALREADY_GIVE: '§6§lУРОВНИ§7: §cОшибка! §fвы уже получили данную награду!'
+LEVEL_NO_OTHER_REWARD: '§6§lУРОВНИ§7: §cОшибка! §fперед получением этой награды вы обязаны получить все предыдущие!'
 BOXES_GUI_NAME: '§8Кейсы'
 BOXES_DONATE_NAME: '§b§lКейс с привилегиями'
 BOXES_DONATE_LORE:
@@ -1186,12 +947,12 @@ BOXES_DONATE_LORE:
 - §8  ▪ §d§lАРЕС
 - §8  ▪ §4§lХРОНОС
 - ''
-- §a▸ §a§lПокупка §7на сайте §ewww.FixMine.ru
+- §a▸ §a§lПокупка §7на сайте §ewww.AviForce.fun
 BOXES_COINS_NAME: '§6§lКейс с крышками'
 BOXES_COINS_LORE:
 - ''
 - ' §7Испытайте свою удачу'
-- ' §7Получите шанс выиграть много крышек'
+- ' §7Получите шанс выиграть много юнитов'
 - ''
 - ' §a↪ §fКлючей от кейса: §a§l⚷§a%s'
 - ''
@@ -1201,16 +962,16 @@ BOXES_COINS_LORE:
 - ''
 - ' §fЧто может выпасть:'
 - ''
-- '§8  ▪ §610 §fкрышек'
-- '§8  ▪ §625 §fкрышек'
-- '§8  ▪ §650 §fкрышек'
-- '§8  ▪ §675 §fкрышек'
-- '§8  ▪ §6100 §fкрышек'
-- '§8  ▪ §6150 §fкрышек'
-- '§8  ▪ §6200 §fкрышек'
-- '§8  ▪ §6250 §fкрышек'
+- '§8  ▪ §610 §fюнитов'
+- '§8  ▪ §625 §fюнитов'
+- '§8  ▪ §650 §fюнитов'
+- '§8  ▪ §675 §fюнитов'
+- '§8  ▪ §6100 §fюнитов'
+- '§8  ▪ §6150 §fюнитов'
+- '§8  ▪ §6200 §fюнитов'
+- '§8  ▪ §6250 §fюнитов'
 - ''
-- '§a▸ §a§lПокупка §7на сайте §ewww.FixMine.ru'
+- '§a▸ §a§lПокупка §7на сайте §ewww.AviForce.fun'
 
 BOXES_TITULS_NAME: '§d§lКейс с титулами'
 BOXES_TITULS_LORE:
@@ -1244,7 +1005,7 @@ BOXES_TITULS_LORE:
 - '§8  ▪ §fТитул: §c§l§nДэдпул§e ✭✭✭✭✭'
 - '§8  ▪ §fТитул: §4§l§nМарвел!§e ✭✭✭✭✭'
 - ''
-- '§a▸ §a§lПокупка §7на сайте §ewww.FixMine.ru'
+- '§a▸ §a§lПокупка §7на сайте §ewww.AviForce.fun'
 
 BOXES_GOLD_NAME: '§e§lКейс с золотом'
 BOXES_GOLD_LORE:
@@ -1269,7 +1030,7 @@ BOXES_GOLD_LORE:
 - '§8  ▪ §e5000 §fзолота'
 - '§8  ▪ §e10000 §fзолота'
 - ''
-- '§a▸ §a§lПокупка §7на сайте §ewww.FixMine.ru'
+- '§a▸ §a§lПокупка §7на сайте §ewww.AviForce.fun'
 BOXES_SOULS_NAME: '§c§lКейс с духами'
 BOXES_SOULS_LORE:
 - ''
@@ -1293,7 +1054,7 @@ BOXES_SOULS_LORE:
 - '§8  ▪ §fДух: §cРегенерация'
 - '§8  ▪ §fДух: §9Ночное зрение'
 - ''
-- '§a▸ §a§lПокупка §7на сайте §ewww.FixMine.ru'
+- '§a▸ §a§lПокупка §7на сайте §ewww.AviForce.fun'
 
 BOXES_SURVIVAL_ITEMS_NAME: '§a§lКейс с предметами'
 BOXES_SURVIVAL_ITEMS_LORE:
@@ -1322,7 +1083,7 @@ BOXES_SURVIVAL_ITEMS_LORE:
 - ' §8▪ §dХорус §ax32'
 - ' §8▪ §aТотем §ax1'
 - ''
-- §a▸ §a§lПокупка §7на сайте §ewww.FixMine.ru
+- §a▸ §a§lПокупка §7на сайте §ewww.AviForce.fun
 BOXES_SURVIVAL_MONEY_NAME: '§d§lКейс с монетами'
 BOXES_SURVIVAL_MONEY_LORE:
 - ''
@@ -1347,7 +1108,7 @@ BOXES_SURVIVAL_MONEY_LORE:
 - ' §8▪ §f30000§6⛂'
 - ' §8▪ §f50000§6⛂'
 - ''
-- §a▸ §a§lПокупка §7на сайте §ewww.FixMine.ru
+- §a▸ §a§lПокупка §7на сайте §ewww.AviForce.fun
 
 BOXES_ONEBLOCK_ITEMS_NAME: '§a§lКейс с предметами'
 BOXES_ONEBLOCK_ITEMS_LORE:
@@ -1376,7 +1137,7 @@ BOXES_ONEBLOCK_ITEMS_LORE:
 - ' §8▪ §dХорус §ax32'
 - ' §8▪ §aТотем §ax1'
 - ''
-- §a▸ §a§lПокупка §7на сайте §ewww.FixMine.ru
+- §a▸ §a§lПокупка §7на сайте §ewww.AviForce.fun
 BOXES_ONEBLOCK_MONEY_NAME: '§d§lКейс с монетами'
 BOXES_ONEBLOCK_MONEY_LORE:
 - ''
@@ -1401,142 +1162,140 @@ BOXES_ONEBLOCK_MONEY_LORE:
 - ' §8▪ §f30000§6⛂'
 - ' §8▪ §f50000§6⛂'
 - ''
-- §a▸ §a§lПокупка §7на сайте §ewww.FixMine.ru
-BOXES_NO_KEYS: '§6§lКейсы §8| §fУ вас §cнет §fключей от данного кейса, купите на сайте §ewww.FixMine.ru'
-BOXES_REWARD_COINS_TITLE: '§6§l%s §fкрышек'
+- §a▸ §a§lПокупка §7на сайте §ewww.AviForce.fun
+BOXES_NO_KEYS: '§6§lКЕЙСЫ§7: §fУ вас §cнет §fключей от данного кейса, купите на сайте §ewww.AviForce.fun'
+BOXES_REWARD_COINS_TITLE: '§6§l%s §fюнитов'
 BOXES_REWARD_GOLD_TITLE: '§e§l%s §fзолота'
 BOXES_REWARD_ITEMS_TITLE: '%s'
 BOXES_REWARD_MONEY_TITLE: '§e§l%s§6⛂'
 BOXES_REWARD_SOULS_TITLE: '%s'
 BOXES_REWARD_TITULS_TITLE: '§8Титул: §f%s'
-BOXES_REWARD_COINS: '§6§lКейсы §8| §fВы выиграли §6§l%s §fкрышек'
-BOXES_REWARD_GOLD: '§6§lКейсы §8| §fВы выиграли §6§l%s §fзолота'
-BOXES_REWARD_DONATE: '§6§lКейсы §8| §fВы выиграли привилегию %s'
-BOXES_REWARD_ITEMS: '§6§lКейсы §8| §fВы выиграли §e§l%s§6⛂'
-BOXES_REWARD_MONEY: '§6§lКейсы §8| §fВы выиграли %s'
-BOXES_REWARD_SOUL: '§6§lКейсы §8| §fВы выиграли духа %s'
-BOXES_REWARD_TITUL: '§6§lКейсы §8| §fВы выиграли титул %s'
-BOXES_IS_OPEN: '§6§lКейсы §8| §fКейс §cуже открывает §fкто-то другой, пожалуйста, подождите'
+BOXES_REWARD_COINS: '§6§lКЕЙСЫ§7: §fВы выиграли §6§l%s §fюнитов'
+BOXES_REWARD_GOLD: '§6§lКЕЙСЫ§7: §fВы выиграли §6§l%s §fзолота'
+BOXES_REWARD_DONATE: '§6§lКЕЙСЫ§7: §fВы выиграли привилегию %s'
+BOXES_REWARD_ITEMS: '§6§lКЕЙСЫ§7: §fВы выиграли §e§l%s§6⛂'
+BOXES_REWARD_MONEY: '§6§lКЕЙСЫ§7: §fВы выиграли %s'
+BOXES_REWARD_SOUL: '§6§lКЕЙСЫ§7: §fВы выиграли духа %s'
+BOXES_REWARD_TITUL: '§6§lКЕЙСЫ§7: §fВы выиграли титул %s'
+BOXES_IS_OPEN: '§6§lКЕЙСЫ§7: §fКейс §cуже открывает §fкто-то другой, пожалуйста, подождите'
 BOXES_HOLOGRAM:
-- '§6§lКейсы'
-- '§7Нажмите, чтобы открыть'
+- '§3§k|||§r §b§lОКУПНЫЕ КЕЙСЫ §3§k|||§r'
+- '§b➥ §fНажмите, чтобы открыть'
 BOXES_COMMAND_HELP:
 - ''
 - '§a/boxes give ник название количество §f- выдать кейсы игроку'
 - '§a/boxes get ник название §f- узнать количество кейсов у игрока'
 - '§a/boxes remove ник название количество §f- забрать кейсы у игрока'
 - ''
-BOXES_COMMAND_GIVE_USE: '§6§lКейсы §8| §fИспользование - §a/boxes give ник название количество'
-BOXES_COMMAND_GET_USE: '§6§lКейсы §8| §fИспользование - §a/boxes get ник название'
-BOXES_COMMAND_REMOVE_USE: '§6§lКейсы §8| §fИспользование - §a/boxes remove ник название количество'
-BOXES_COMMAND_UNKNOWN: '§6§lКейсы §8| §fДанная команда §cне найдена'
-BOXES_NOT_NUMERIC: '§6§lКейсы §8| §fЧисло введено §cневерно'
-BOXES_NOT_FOUND: '§6§lКейсы §8| §fКейс с таким названием §cне найден'
-BOXES_GIVE_SUCCESS: '§6§lКейсы §8| §fВы §aуспешно выдали §fкейсы §6%3$s %2$s §fигроку §e%s'
-BOXES_GET_SUCCESS: '§6§lКейсы §8| §fКоличество §6%2$s §fкейсов у игрока §a%1$s§f: §e%3$s'
-BOXES_REMOVE_SUCCESS: '§6§lКейсы §8| §fВы §aуспешно забрали §6%3$s кейсов §f%2$s §fу игрока §e%s'
+BOXES_COMMAND_GIVE_USE: '§6§lКЕЙСЫ§7: §fИспользование - §a/boxes give ник название количество'
+BOXES_COMMAND_GET_USE: '§6§lКЕЙСЫ§7: §fИспользование - §a/boxes get ник название'
+BOXES_COMMAND_REMOVE_USE: '§6§lКЕЙСЫ§7: §fИспользование - §a/boxes remove ник название количество'
+BOXES_COMMAND_UNKNOWN: '§6§lКЕЙСЫ§7: §fДанная команда §cне найдена'
+BOXES_NOT_NUMERIC: '§6§lКЕЙСЫ§7: §fЧисло введено §cневерно'
+BOXES_NOT_FOUND: '§6§lКЕЙСЫ§7: §fКейс с таким названием §cне найден'
+BOXES_GIVE_SUCCESS: '§6§lКЕЙСЫ§7: §fВы §aуспешно выдали §fкейсы §6%3$s %2$s §fигроку §e%s'
+BOXES_GET_SUCCESS: '§6§lКЕЙСЫ§7: §fКоличество §6%2$s §fкейсов у игрока §a%1$s§f: §e%3$s'
+BOXES_REMOVE_SUCCESS: '§6§lКЕЙСЫ§7: §fВы §aуспешно забрали §6%3$s кейсов §f%2$s §fу игрока §e%s'
 PARKOUR_FLY_DISABLED: '§6§lПаркур §8| §fИспользование режима §cполета §fзапрещено во время прохождения §cпаркура'
-MENU_COOLDOWN: '§6§lМеню §8| §fПодождите §e§l%s §fсекунд перед повторным использованием'
-MENU_MINIMAL_GROUP: '§6§lМеню §8| §fИспользование предмета доступно от привилегии %s'
-MENU_ONLY_GROUP: '§6§lМеню §8| §fИспользование предмета доступно только для %s'
-MENU_COINS_PRICE: '§6§lМеню §8| §fУ вас §cнедостаточно §fкрышек, необходимо: §6§l%s'
-MENU_GOLD_PRICE: '§6§lМеню §8| §fУ вас §cнедостаточно §fзолота, необходимо: §e§l%s'
-MENU_COINS_PAY: '§6§lМеню §8| §fС счета списано §a§l%s §fкрышек'
-MENU_GOLD_PAY: '§6§lМеню §8| §fС счета списано §a§l%s §fзолота'
+MENU_COOLDOWN: '§e§lМЕНЮ§7: §fПодождите §e§l%s §fсекунд перед повторным использованием'
+MENU_MINIMAL_GROUP: '§e§lМЕНЮ§7: §fИспользование предмета доступно от привилегии %s'
+MENU_ONLY_GROUP: '§e§lМЕНЮ§7: §fИспользование предмета доступно только для %s'
+MENU_COINS_PRICE: '§e§lМЕНЮ§7: §fУ вас §cнедостаточно §fюнитов, необходимо: §6§l%s'
+MENU_GOLD_PRICE: '§e§lМЕНЮ§7: §fУ вас §cнедостаточно §fзолота, необходимо: §e§l%s'
+MENU_COINS_PAY: '§e§lМЕНЮ§7: §fС счета списано §a§l%s §fюнитов'
+MENU_GOLD_PAY: '§e§lМЕНЮ§7: §fС счета списано §a§l%s §fзолота'
 
 #ALTERNATE
-CLEAR_INV: §6§lСервер §8| §fВы §aочистили §fинвентарь
-CLEAR_INV_TO: §6§lСервер §8| §fВы §aочистили §fинвентарь игроку §e%s
+CLEAR_INV: '§6§lAVI§e§lFORCE§7: §fВы §aочистили §fинвентарь'
+CLEAR_INV_TO: '§6§lAVI§e§lFORCE§7: §fВы §aочистили §fинвентарь игроку §e%s'
 PLAYER_LIST:
 - ''
-- §6§lСервер §8|  §fНа режиме %s
+- '§6§lAVI§e§lFORCE§7:  §fНа режиме %s'
 - ' §a▪ §fКрутые ребята: %s'
 - ' §a▪ §fИгроки: %s'
 - ' §a▪ §fДонатеры: %s'
 - ' §a▪ §fАдминистрация: %s'
 - ''
-BROADCAST_NO_ARGS: §6§lСервер §8| §fИспользование - §a/bc сообщение
+BROADCAST_NO_ARGS: '§6§lAVI§e§lFORCE§7: §fИспользование - §a/bc сообщение'
 BROADCAST_FORMAT: '§6§l%s §fпишет: §a%s'
-DAY_SET: §6§lСервер §8| §fВы установили время §aдень
-NIGHT_SET: §6§lСервер §8| §fВы установили время §aночь
-RAIN_SET: §6§lСервер §8| §fВы установили погоду §aсолнце
-STORM_SET: §6§lСервер §8| §fВы установили погоду §aдождь
-NO_ENCHANTMENTS: §6§lСервер §8| §fПредмет не имеет зачарований
-DISPELL: §6§lСервер §8| §fВы сняли все §aзачарования §fс предмета
-EXT: §6§lСервер §8| §fВы §aпотушили §fсебя
-EXT_TO: §6§lСервер §8| §fВы §aпотушили §fигрока §a%s
-FEED: §6§lСервер §8| §fВы §aвосстановили §fеду
-FEED_TO: §6§lСервер §8| §fВы §aвосстановили §fеду игроку §a%s
-FLY_ENABLE: §6§lСервер §8| §fВы §aвключили §fрежим полета
-FLY_ENABLE_TO: §6§lСервер §8| §fВы §aвключили §fрежим полета игроку §a%s
-FLY_DISABLE: §6§lСервер §8| §fВы §cвыключили §fрежим полета
-FLY_DISABLE_TO: §6§lСервер §8| §fВы §cвыключили §fрежим полета игроку §a%s
-TPTOGGLE_ENABLE: §6§lСервер §8| §fТелепортации §aвключены
-TPTOGGLE_DISABLE: §6§lСервер §8| §fТелепортации §cотключены
-VANISH_ENABLE: §6§lСервер §8| §fВы §aвключили §fрежим невидимости
-VANISH_DISABLE: §6§lСервер §8| §fВы §cвыключили §fрежим невидимости
+DAY_SET: '§6§lAVI§e§lFORCE§7: §fВы установили время §aдень'
+NIGHT_SET: '§6§lAVI§e§lFORCE§7: §fВы установили время §aночь'
+RAIN_SET: '§6§lAVI§e§lFORCE§7: §fВы установили погоду §aсолнце'
+STORM_SET: '§6§lAVI§e§lFORCE§7: §fВы установили погоду §aдождь'
+NO_ENCHANTMENTS: '§6§lAVI§e§lFORCE§7: §fПредмет не имеет зачарований'
+DISPELL: '§6§lAVI§e§lFORCE§7: §fВы сняли все §aзачарования §fс предмета'
+EXT: '§6§lAVI§e§lFORCE§7: §fВы §aпотушили §fсебя'
+EXT_TO: '§6§lAVI§e§lFORCE§7: §fВы §aпотушили §fигрока §a%s'
+FEED: '§6§lAVI§e§lFORCE§7: §fВы §aвосстановили §fеду'
+FEED_TO: '§6§lAVI§e§lFORCE§7: §fВы §aвосстановили §fеду игроку §a%s'
+FLY_ENABLE: '§6§lAVI§e§lFORCE§7: §fВы §aвключили §fрежим полета'
+FLY_ENABLE_TO: '§6§lAVI§e§lFORCE§7: §fВы §aвключили §fрежим полета игроку §a%s'
+FLY_DISABLE: '§6§lAVI§e§lFORCE§7: §fВы §cвыключили §fрежим полета'
+FLY_DISABLE_TO: '§6§lAVI§e§lFORCE§7: §fВы §cвыключили §fрежим полета игроку §a%s'
+TPTOGGLE_ENABLE: '§6§lAVI§e§lFORCE§7: §fТелепортации §aвключены'
+TPTOGGLE_DISABLE: '§6§lAVI§e§lFORCE§7: §fТелепортации §cотключены'
+VANISH_ENABLE: '§6§lAVI§e§lFORCE§7: §fВы §aвключили §fрежим невидимости'
+VANISH_DISABLE: '§6§lAVI§e§lFORCE§7: §fВы §cвыключили §fрежим невидимости'
 VANISH_ACTIONBAR: §aВы находитесь в режиме невидимости
-GAMEMODE_FORMAT_NO_ARGS: §6§lСервер §8| §fУкажите §cрежим §f- §a/gamemode [режим]
-GAMEMODE: §6§lСервер §8| §fРежим §a%s §fвключен
-GAMEMODE_TO: §6§lСервер §8| §fИгроку §a%s §fустановлен режим §a%s
+GAMEMODE_FORMAT_NO_ARGS: '§6§lAVI§e§lFORCE§7: §fУкажите §cрежим §f- §a/gamemode [режим]'
+GAMEMODE: '§6§lAVI§e§lFORCE§7: §fРежим §a%s §fвключен'
+GAMEMODE_TO: '§6§lAVI§e§lFORCE§7: §fИгроку §a%s §fустановлен режим §a%s'
 SURVIVAL_MODE: 'Выживание'
 CREATIVE_MODE: 'Креатив'
 ADVENTURE_MODE: 'Приключенческий'
 SPECTATOR_MODE: 'Спектатор'
-GOD_ENABLE: §6§lСервер §8| §fВы §aвключили §fрежим бессмертия
-GOD_ENABLE_TO: §6§lСервер §8| §fВы §aвключили §fрежим бессмертия игроку §a%s
-GOD_DISABLE: §6§lСервер §8| §fВы §cвыключили §fрежим бессмертия
-GOD_DISABLE_TO: §6§lСервер §8| §fВы §cвыключили §fрежим бессмертия игроку §a%s
-HAT_ERROR: §6§lСервер §8| §fВозьмите §cпредмет §fв руку
-HAT: §6§lСервер §8| §fВы §aодели §fпредмет на голову
-HEAL: §6§lСервер §8| §fВы §aисцелили §fсебя
-HEAL_TO: §6§lСервер §8| §fВы §aисцелили игрока §a%s
-COOLDOWN: §6§lСервер §8| §fПодождите §c%s §fсекунд перед повторным использованием
-REPAIR_ERROR: §6§lСервер §8| §fВозьмите §cпредмет §fв руку
-REPAIR: §6§lСервер §8| §fВы §aпочинили §fпредмет в руке
-SPEED: §6§lСервер §8| §fВы установили скорость §a%s
-SPEED_TO: §6§lСервер §8| §fВы установили скорость §a%s §fигроку §a%s
-SUICIDE: §6§lСервер §8| §fВы §aубили §fсебя
-TRADE_FORMAT_NO_ARGS: §6§lСервер §8| §fУкажите §cник игрока §f- §a/trade [ник]
+GOD_ENABLE: '§6§lAVI§e§lFORCE§7: §fВы §aвключили §fрежим бессмертия'
+GOD_ENABLE_TO: '§6§lAVI§e§lFORCE§7: §fВы §aвключили §fрежим бессмертия игроку §a%s'
+GOD_DISABLE: '§6§lAVI§e§lFORCE§7: §fВы §cвыключили §fрежим бессмертия'
+GOD_DISABLE_TO: '§6§lAVI§e§lFORCE§7: §fВы §cвыключили §fрежим бессмертия игроку §a%s'
+HAT_ERROR: '§6§lAVI§e§lFORCE§7: §fВозьмите §cпредмет §fв руку'
+HAT: '§6§lAVI§e§lFORCE§7: §fВы §aодели §fпредмет на голову'
+HEAL: '§6§lAVI§e§lFORCE§7: §fВы §aисцелили §fсебя'
+HEAL_TO: '§6§lAVI§e§lFORCE§7: §fВы §aисцелили игрока §a%s'
+COOLDOWN: '§6§lAVI§e§lFORCE§7: §fПодождите §c%s §fсекунд перед повторным использованием'
+REPAIR_ERROR: '§6§lAVI§e§lFORCE§7: §fВозьмите §cпредмет §fв руку'
+REPAIR: '§6§lAVI§e§lFORCE§7: §fВы §aпочинили §fпредмет в руке'
+SPEED: '§6§lAVI§e§lFORCE§7: §fВы установили скорость §a%s'
+SPEED_TO: '§6§lAVI§e§lFORCE§7: §fВы установили скорость §a%s §fигроку §a%s'
+SUICIDE: '§6§lAVI§e§lFORCE§7: §fВы §aубили §fсебя'
+TRADE_FORMAT_NO_ARGS: '§6§lAVI§e§lFORCE§7: §fУкажите §cник игрока §f- §a/trade [ник]'
 TRADE_HELP:
 - §7/trade [ник] §f- предложить обмен
 - §7/trade accept [ник] §f- принять обмен
 TRADE_ERROR_YOU: §cВы не можете обмениваться сам с собой
-TRADE_ERROR: §6§lСервер §8| §fС вами еще никто §cне хотел §fпоменяться
-TRADE_ERROR2: §6§lСервер §8| §fУ вас нет ожидающих заявок от игрока §a%s
-TRADE_BROKEN: §6§lСервер §8| §fОтмен был §cотменен
-TELEPORTING: §6§lСервер §8| §fТелепортируем, не двигайтесь §a%s секунды
-TELEPORTING_RUNNING: §6§lСервер §8| §fПроцесс телепортации §cуже запущен
-NAME_IS_INVALID: §6§lСервер §8| §fНик введен §cнеккоректно
-KIT_NOT_FOUND: §6§lСервер §8| §fДанный набор §cне найден
-KIT_NO_PERMS_GROUP: §6§lСервер §8| §fДанный набор доступен для привилегии %s
-KIT_SELECT: §6§lСервер §8| §fВы взяли набор §a%s
-KIT_COOLDOWN: §6§lСервер §8| §fНабор будет доступен через §c%s
-HOME_EMPTY: §6§lСервер §8| §fУ вас §cне установлена §fне одна точка дома
-HOME_TO: §6§lСервер §8| §fВы телепортировались на точку дома §a%s
-DELHOME_FORMAT: §6§lСервер §8| §fУкажите §cназвание дома §f- §a/delhome [дом]
-HOME_REMOVE: §6§lСервер §8| §fВы удалили точку дома §a%s
-HOME_NOT_FOUND: §6§lСервер §8| §fТочка дома §c%s §fне найдена
-SETHOME_FORMAT_NO_ARGS: §6§lСервер §8| §fУкажите §cназвание дома §f- §a/sethome [дом]
-HOME_ERROR: §6§lСервер §8| §fУ вас уже §cустановлена §fточка дома §c%s
-HOME_CREATE: §6§lСервер §8| §fВы §aустановили §fточку дома §a%s
-ITEMDB_ERROR: §6§lСервер §8| §fВозьмите §cпредмет §fв руку
-ITEMDB: '§6§lСервер §8| §fID предмета §e%s§f: §a%s'
+TRADE_ERROR: '§6§lAVI§e§lFORCE§7: §fС вами еще никто §cне хотел §fпоменяться'
+TRADE_ERROR2: '§6§lAVI§e§lFORCE§7: §fУ вас нет ожидающих заявок от игрока §a%s'
+TRADE_BROKEN: '§6§lAVI§e§lFORCE§7: §fОтмен был §cотменен'
+TELEPORTING: '§6§lAVI§e§lFORCE§7: §fТелепортируем, не двигайтесь §a%s секунды'
+TELEPORTING_RUNNING: '§6§lAVI§e§lFORCE§7: §fПроцесс телепортации §cуже запущен'
+NAME_IS_INVALID: '§6§lAVI§e§lFORCE§7: §fНик введен §cнеккоректно'
+KIT_NOT_FOUND: '§6§lAVI§e§lFORCE§7: §fДанный набор §cне найден'
+KIT_NO_PERMS_GROUP: '§6§lAVI§e§lFORCE§7: §fДанный набор доступен для привилегии %s'
+KIT_SELECT: '§6§lAVI§e§lFORCE§7: §fВы взяли набор §a%s'
+KIT_COOLDOWN: '§6§lAVI§e§lFORCE§7: §fНабор будет доступен через §c%s'
+HOME_EMPTY: '§6§lAVI§e§lFORCE§7: §fУ вас §cне установлена §fне одна точка дома'
+HOME_TO: '§6§lAVI§e§lFORCE§7: §fВы телепортировались на точку дома §a%s'
+DELHOME_FORMAT: '§6§lAVI§e§lFORCE§7: §fУкажите §cназвание дома §f- §a/delhome [дом]'
+HOME_REMOVE: '§6§lAVI§e§lFORCE§7: §fВы удалили точку дома §a%s'
+HOME_NOT_FOUND: '§6§lAVI§e§lFORCE§7: §fТочка дома §c%s §fне найдена'
+SETHOME_FORMAT_NO_ARGS: '§6§lAVI§e§lFORCE§7: §fУкажите §cназвание дома §f- §a/sethome [дом]'
+HOME_ERROR: '§6§lAVI§e§lFORCE§7: §fУ вас уже §cустановлена §fточка дома §c%s'
+HOME_CREATE: '§6§lAVI§e§lFORCE§7: §fВы §aустановили §fточку дома §a%s'
+ITEMDB_ERROR: '§6§lAVI§e§lFORCE§7: §fВозьмите §cпредмет §fв руку'
+ITEMDB: '§6§lAVI§e§lFORCE§7: §fID предмета §e%s§f: §a%s'
 LIST_EMPTY: §7Нет игроков в сети
-NEAR_NOT_FOUND: §6§lСервер §8| §fИгроков поблизости §cне найдено
-NEAR: '§6§lСервер §8| §fИгроки поблизости: §a%s'
-RECIPE_DISABLED: §6§lСервер §8| §fДанная команда доступна только до версии §a1.12.2
-RECIPE_FORMAT_NO_ARGS: §6§lСервер §8| §fУкажиет §cid предмета §f- §a/recipe [id]
-INVALID_ITEM_RECIPE: §6§lСервер §8| §fОшибка, крафт предмета не найден
-RECIPE_FURNACE: §6§lСервер §8| §fДля того, чтобы получить этот предмет, вам нужно
-  обжарить в печи §c%s§f
-RECIPE_LIST_VIEW: §6§lСервер §8| §fУ предмета %s несколько рецептов. Введите §a/%s
-  %s [номер] §fдля просмотра конкретного
-BACK: §6§lСервер §8| §fВы §aвернулись §fна предыдущую локацию
-CALL_FORMAT: §6§lСервер §8| §fУкажите §cник игрока §f- §a/tpa [ник]
-CALL_YOU: §6§lСервер §8| §fВы §cне можете §fотправить запрос самому себе
-TPTOGGLE: §6§lСервер §8| §fУ игрока §cотключены §fзапросы на телепортации
-CALL_ERROR: §6§lСервер §8| §fВы §cуже отправляли §fзапрос данному игроку
+NEAR_NOT_FOUND: '§6§lAVI§e§lFORCE§7: §fИгроков поблизости §cне найдено'
+NEAR: '§6§lAVI§e§lFORCE§7: §fИгроки поблизости: §a%s'
+RECIPE_DISABLED: '§6§lAVI§e§lFORCE§7: §fДанная команда доступна только до версии §a1.12.2'
+RECIPE_FORMAT_NO_ARGS: '§6§lAVI§e§lFORCE§7: §fУкажиет §cid предмета §f- §a/recipe [id]'
+INVALID_ITEM_RECIPE: '§6§lAVI§e§lFORCE§7: §fОшибка, крафт предмета не найден'
+RECIPE_FURNACE: '§6§lAVI§e§lFORCE§7: §fДля того, чтобы получить этот предмет, вам нужно обжарить в печи §c%s§f'
+RECIPE_LIST_VIEW: '§6§lAVI§e§lFORCE§7: §fУ предмета %s несколько рецептов. Введите §a/%s %s [номер] §fдля просмотра конкретного'
+BACK: '§6§lAVI§e§lFORCE§7: §fВы §aвернулись §fна предыдущую локацию'
+CALL_FORMAT: '§6§lAVI§e§lFORCE§7: §fУкажите §cник игрока §f- §a/tpa [ник]'
+CALL_YOU: '§6§lAVI§e§lFORCE§7: §fВы §cне можете §fотправить запрос самому себе'
+TPTOGGLE: '§6§lAVI§e§lFORCE§7: §fУ игрока §cотключены §fзапросы на телепортации'
+CALL_ERROR: '§6§lAVI§e§lFORCE§7: §fВы §cуже отправляли §fзапрос данному игроку'
 CALL_INVITE_1: ' §a%s §fзапросил телепортацию к вам'
 CALL_INVITE_2: ' §fДля принятия запроса пишите §c'
 CALL_INVITE_3: ' §fДля отмены запроса пиши §c'
@@ -1544,49 +1303,42 @@ CALL_INVITE_4: ' §fУ вас есть §a120 §fсекунд, чтобы его
 CALL_HOVER_IGNORE:
 - §fНажмите сюда, чтобы §cотклонить
 - §fзапрос от игрока %s
-CALL: §6§lСервер §8| §f§fЗапрос на телепортацию отправлен игроку §a%s
-S_FORMAT: §6§lСервер §8| §fУкажите §cник игрока §f- §a/s [ник]
-SPAWN: §6§lСервер §8| §fВы были §aтелепортированы §fна спавн
-TPACCEPT_SENDER: §6§lСервер §8| §fВы приняли запрос от игрока §a%s
-TPACCEPT_WHO: §6§lСервер §8| §fИгрок §a%s §fпринял ваш запрос на телепортацию
-TPACCEPT_ERROR: §6§lСервер §8| §fУ вас нет ожидающих заявок
-TPACCEPT_ERROR_PLAYER: §6§lСервер §8| §fУ вас нет ожидающих заявок от игрока §c%s
-CHUNK_FORMAT: §6§lСервер §8| §fУкажите §cкоординаты чанка §f- §a/tpchunk [x] [y]
-TPPOS_ERROR: §6§lСервер §8| §fАргументы §cне верны§f, должны быть введены цифры
-TPPOS_ERROR_BORDER: §6§lСервер §8| §fВы §cне можете §fтелепортироваться в данную
-  локацию, она находится за пределами §cграницы мира
-TPPOS: §6§lСервер §8| §fВы §aтелепортировались §fна координаты §a%s
-TP_FORMAT_NO_ARGS: §6§lСервер §8| §fУкажите §cник игрока §f- §a/tp [ник]
-CALL_FORMAT_NO_ARGS: §6§lСервер §8| §fУкажите §cник игрока §f- §a/tpa [ник]
-TELEPORT_TO: §6§lСервер §8| §fВы телепортировали игрока §a%s §fк игроку §e%s
-TELEPORT: §6§lСервер §8| §fВы §aтелепортировались §fк игроку §a%s
-TPDENY: §6§lСервер §8| §fВы отклонили запрос на телепортацию от игрока §c%s
-TPDENY_YOU: §6§lСервер §8| §fИгрок §c%s §fотклонил ваш запрос на телепортирацию
-TPPOS_FORMAT: §6§lСервер §8| §fУкажите §cкоординаты §f- §a/tppos [x] [y]
-TPPOS_ENABLE: §6§lСервер §8| §fВы §aвключили §fтелепортации
-TPPOS_DISABLE: §6§lСервер §8| §fВы §cвыключили §fтелепортации
-CREATE_WARP_FORMAT_NO_ARGS: §6§lСервер §8| §fУкажите §cназвание варпа §f- §a/setwarp
-  [название]
-WARP_CREATE_ERROR: §6§lСервер §8| §fВарп с названием §c%s §fуже существует
-HOME_WARP_LIMIT: §6§lСервер §8| §fВы §cдостигли лимита§f по количеству варпов для
-  вашей привилегии
-WARP_CREATE_NAME_ERROR: §6§lСервер §8| §fНазвание варпа не должно превышать §c32
-  символа
-WARP_CREATE: §6§lСервер §8| §fВы создали варп §a%s
-WARP_TO: §6§lСервер §8| §fВы были телепортированы на варп §a%s
-WARP_CLOSE: §6§lСервер §8| §fВарп §c%s §fявляется приватным, вы не можете на него
-  телепортироваться
-DEL_WARP_FORMAT_NO_ARGS: §6§lСервер §8| §fУкажите §cназвание варпа §f- §a/delwarp
-  [название]
-WARP_NOT_FOUND: §6§lСервер §8| §fВарп с названием §c%s §fне найден
-WARP_NOT_YOUR: §6§lСервер §8| §fВы §cне являетесь §fсоздателем варпа
-WARP_REMOVED: §6§lСервер §8| §fВы удалили варп §c%s
-PLAYER_WARP_FORMAT: §6§lСервер §8| §fУкажите §cник игрока §f- §a/playerwarp [ник]
+CALL: '§6§lAVI§e§lFORCE§7: §f§fЗапрос на телепортацию отправлен игроку §a%s'
+S_FORMAT: '§6§lAVI§e§lFORCE§7: §fУкажите §cник игрока §f- §a/s [ник]'
+SPAWN: '§6§lAVI§e§lFORCE§7: §fВы были §aтелепортированы §fна спавн'
+TPACCEPT_SENDER: '§6§lAVI§e§lFORCE§7: §fВы приняли запрос от игрока §a%s'
+TPACCEPT_WHO: '§6§lAVI§e§lFORCE§7: §fИгрок §a%s §fпринял ваш запрос на телепортацию'
+TPACCEPT_ERROR: '§6§lAVI§e§lFORCE§7: §fУ вас нет ожидающих заявок'
+TPACCEPT_ERROR_PLAYER: '§6§lAVI§e§lFORCE§7: §fУ вас нет ожидающих заявок от игрока §c%s'
+CHUNK_FORMAT: '§6§lAVI§e§lFORCE§7: §fУкажите §cкоординаты чанка §f- §a/tpchunk [x] [y]'
+TPPOS_ERROR: '§6§lAVI§e§lFORCE§7: §fАргументы §cне верны§f, должны быть введены цифры'
+TPPOS_ERROR_BORDER: '§6§lAVI§e§lFORCE§7: §fВы §cне можете §fтелепортироваться в данную локацию, она находится за пределами §cграницы мира'
+TPPOS: '§6§lAVI§e§lFORCE§7: §fВы §aтелепортировались §fна координаты §a%s'
+TP_FORMAT_NO_ARGS: '§6§lAVI§e§lFORCE§7: §fУкажите §cник игрока §f- §a/tp [ник]'
+CALL_FORMAT_NO_ARGS: '§6§lAVI§e§lFORCE§7: §fУкажите §cник игрока §f- §a/tpa [ник]'
+TELEPORT_TO: '§6§lAVI§e§lFORCE§7: §fВы телепортировали игрока §a%s §fк игроку §e%s'
+TELEPORT: '§6§lAVI§e§lFORCE§7: §fВы §aтелепортировались §fк игроку §a%s'
+TPDENY: '§6§lAVI§e§lFORCE§7: §fВы отклонили запрос на телепортацию от игрока §c%s'
+TPDENY_YOU: '§6§lAVI§e§lFORCE§7: §fИгрок §c%s §fотклонил ваш запрос на телепортирацию'
+TPPOS_FORMAT: '§6§lAVI§e§lFORCE§7: §fУкажите §cкоординаты §f- §a/tppos [x] [y]'
+TPPOS_ENABLE: '§6§lAVI§e§lFORCE§7: §fВы §aвключили §fтелепортации'
+TPPOS_DISABLE: '§6§lAVI§e§lFORCE§7: §fВы §cвыключили §fтелепортации'
+CREATE_WARP_FORMAT_NO_ARGS: '§6§lAVI§e§lFORCE§7: §fУкажите §cназвание варпа §f- §a/setwarp [название]'
+WARP_CREATE_ERROR: '§6§lAVI§e§lFORCE§7: §fВарп с названием §c%s §fуже существует'
+HOME_WARP_LIMIT: '§6§lAVI§e§lFORCE§7: §fВы §cдостигли лимита§f по количеству варпов для вашей привилегии'
+WARP_CREATE_NAME_ERROR: '§6§lAVI§e§lFORCE§7: §fНазвание варпа не должно превышать §c32 символа'
+WARP_CREATE: '§6§lAVI§e§lFORCE§7: §fВы создали варп §a%s'
+WARP_TO: '§6§lAVI§e§lFORCE§7: §fВы были телепортированы на варп §a%s'
+WARP_CLOSE: '§6§lAVI§e§lFORCE§7: §fВарп §c%s §fявляется приватным, вы не можете на него телепортироваться'
+DEL_WARP_FORMAT_NO_ARGS: '§6§lAVI§e§lFORCE§7: §fУкажите §cназвание варпа §f- §a/delwarp [название]'
+WARP_NOT_FOUND: '§6§lAVI§e§lFORCE§7: §fВарп с названием §c%s §fне найден'
+WARP_NOT_YOUR: '§6§lAVI§e§lFORCE§7: §fВы §cне являетесь §fсоздателем варпа'
+WARP_REMOVED: '§6§lAVI§e§lFORCE§7: §fВы удалили варп §c%s'
+PLAYER_WARP_FORMAT: '§6§lAVI§e§lFORCE§7: §fУкажите §cник игрока §f- §a/playerwarp [ник]'
 PLAYER_WARP_GUI_NAME: Список варпов - %s
-PLAYER_NEVER_PLAYED: §6§lСервер §8| §fИгрок §c%s §fникогда не заходил на сервер
-TELEPORT_MOVE_ERROR: §6§lСервер §8| §fТелепортация §cотменена§f, вы сдвинулись с
-  места
-USER_SETBED: §6§lСервер §8| §fТочка кровати §aустановлена
+PLAYER_NEVER_PLAYED: '§6§lAVI§e§lFORCE§7: §fИгрок §c%s §fникогда не заходил на сервер'
+TELEPORT_MOVE_ERROR: '§6§lAVI§e§lFORCE§7: §fТелепортация §cотменена§f, вы сдвинулись с места'
+USER_SETBED: '§6§lAVI§e§lFORCE§7: §fТочка кровати §aустановлена'
 WARP_ITEM_LORE:
 - ''
 - '§7Владелец: %s'
@@ -1659,9 +1411,8 @@ PLAYER_WARP_ITEM_EMPTY_LORE:
 - §7В данный момент у игрока %s
 - §7нет доступных публичных варпов
 - §7или они отсутствуют вовсе
-WARP_INFO_FORMAT: §6§lСервер §8| §fУкажите §cназвание варпа §f- §a/warpinfo [название]
-WARPINFO: §6§lСервер §8| §fИнформация о варпе §c%s§f, владелец - %s§f, дата создания
-  - §a%s
+WARP_INFO_FORMAT: '§6§lВАРПЫ§7: §fУкажите §cназвание варпа §f- §a/warpinfo [название]'
+WARPINFO: '§6§lAVI§e§lFORCE§7: §fИнформация о варпе §c%s§f, владелец - %s§f, дата создания - §a%s'
 HOVER_MESSAGE_CHAT:
 - §fНажмите сюда, чтобы написать
 - §fигроку %s §fв лс
@@ -1718,8 +1469,8 @@ SYSTEM_WARP_GUI_NAME: Сервер
 CALL_GUI_NAME: Запросы на тп
 HOME_GUI_NAME: Точки дома
 KIT_GUI_NAME: Выбор набора
-PLAYER_NOT_ONLINE: §6§lСервер §8| §fИгрок §c%s §fне онлайн
-S_FORMAT_NO_ARGS: '§6§lСервер §8| §f/s <ник игрока>'
+PLAYER_NOT_ONLINE: '§6§lAVI§e§lFORCE§7: §fИгрок §c%s §fне онлайн'
+S_FORMAT_NO_ARGS: '§6§lAVI§e§lFORCE§7: §f/s <ник игрока>'
 LIST:
 - ''
 - '§6Сервер §8| §fНа режиме %s'
@@ -1984,40 +1735,10 @@ PRIVATE_MESSAGE_FORMAT_TARGET: '§8▸ [§6ʟᴄ§8] %1$s §d§l↠ §aВам§8
 PRIVATE_MESSAGE_FORMAT_SENDER: '§8▸ [§6ʟᴄ§8] §aВы §d§l↠ %1$s§8: §7%3$s'
 NO_PLAYERS_TO_REPLY: '§6§lСообщения §8| §fУ вас §cнет §fсообщений требующих ответа'
 PRIVATE_MESSAGES_PLAYERS_SAME: '§6§lСообщения §8| §fВы §cне можете §fнаписать самому себе'
-#RTP
-RTP_GUI_NAME: '§7Рандомная телепортация'
-RTP_ITEM_NAME: '§6§lТелепортация в безопасное место'
-RTP_ITEM_LORE:
-- ''
-- ' §7Телепортирует вас в безопасное место'
-- ''
-- '§a▸ §a§lНажмите§7, чтобы телепортироваться'
-RTP_COOLDOWN_ITEM_LORE:
-- ''
-- ' §7Телепортирует вас в безопасное место'
-- ''
-- ' §8▪ §fБудет доступно через: §c%s'
-RTP_PVP_ITEM_NAME: '§c§lТелепортация около игроков'
-RTP_PVP_ITEM_LORE:
-- ''
-- ' §7Телепортирует вас вблизи других игроков'
-- ''
-- '§a▸ §a§lНажмите§7, чтобы телепортироваться'
-RTP_PVP_COOLDOWN_ITEM_LORE:
-- ''
-- ' §7Телепортирует вас вблизи других игроков'
-- ''
-- ' §8▪ §fБудет доступно через: §c%s'
-RTP_PVP_ITEM_DENY_LORE:
-- ''
-- ' §7Телепортирует вас вблизи игроков'
-- ''
-- ' §8▪ §fДоступно от привилегии: %s'
 RTP_TELEPORT: '§6§lРТП §8| §fВы были телепортированы на координаты §a%2$s§f, §a%3$s§f, §a%4$s'
 RTP_PVP_TELEPORT: '§6§lРТП §8| §fВы были телепортированы, игроков поблизости: §a%5$s'
 RTP_PVP_TELEPORT_ERROR: '§6§lРТП §8| §fОшибка §cтелепортации§f, попробуйте снова'
 RTP_PVP_NO_PERMISSIONS: '§6§lРТП §8| §fКоманда доступна от привилегии %s'
-#RTP-CANCEL
 COMMAND_IGNORE_HELP: 
 - '§6§lСообщения §8| §fДобавить игрока в игнор-лист: §a/ignore add [ник]'
 - '§6§lСообщения §8| §fУдалить игрока из игнор-листа: §a/ignore remove [ник]'
@@ -2045,23 +1766,23 @@ GRANT_LIMIT: '§6§lДонат §8| §cОшибка! §fДостигнут ли�
 GRANT_GROUP_PRIORITY: '§6§lДонат §8| §cОшибка! §fИгрок §e%s §fимеет привилегию выше по стоимости'
 GRANT_GIVE_DONATE: '§6§lДонат §8|  §fИгрок §e%1$s §fвыдал привилегию %3$s§fигроку §6%2$s'
 #UPDATE
-TIME_ERROR: §6§lСервер §8| §fВремя указано §aневерно
+TIME_ERROR: '§6§lAVI§e§lFORCE§7: §fВремя указано §aневерно'
 RAINY: дождь
 SUNNY: ясно
 DAY: день
 NIGHT: ночь
 MORNING: утро
-PTIME_RESET: §6§lСервер §8| §fУстановлено §aстандартное §fвремя
-PTIME_CHANGE: '§6§lСервер §8| §fВы установили персональное время: §a%s'
+PTIME_RESET: '§6§lAVI§e§lFORCE§7: §fУстановлено §aстандартное §fвремя'
+PTIME_CHANGE: '§6§lAVI§e§lFORCE§7: §fВы установили персональное время: §a%s'
 PTIME_GUI_NAME: Смена личного времени
 PWEATHER_GUI_NAME: Смена личной погоды
-PWEATHER_CHANGE: '§6§lСервер §8| §fВы установили персональную погоду: §a%s'
+PWEATHER_CHANGE: '§6§lAVI§e§lFORCE§7: §fВы установили персональную погоду: §a%s'
 PTIME_ITEM_RESET_NAME: §aОбнулить время
 PTIME_ITEM_RESET_LORE:
 - ''
-- §7Установить серверное время
+- '§7Установить серверное время'
 - ''
-- §e▸ Нажмите, чтобы сменить
+- '§e▸ Нажмите, чтобы сменить'
 PWEATHER_ITEM_RESET_NAME: §aОбнулить погоду
 PWEATHER_ITEM_RESET_LORE:
 - ''
@@ -2094,9 +1815,9 @@ PTIME_ITEM_LORE:
 - ''
 - §e▸ Нажмите, чтобы открыть меню
 
-TIME_CHANGE: '§6§lСервер §8| §fВы установили время в мире §e%s §fна: §a%s'
+TIME_CHANGE: '§6§lAVI§e§lFORCE§7: §fВы установили время в мире §e%s §fна: §a%s'
 TIME_GUI_NAME: Смена времени
-WEATHER_CHANGE: '§6§lСервер §8| §fВы установили погоду в мире §e%s §fна: §a%s'
+WEATHER_CHANGE: '§6§lAVI§e§lFORCE§7: §fВы установили погоду в мире §e%s §fна: §a%s'
 TIME_ITEM_WATCH_NAME: §aСменить время
 TIME_ITEM_WATCH_LORE:
 - ''
@@ -2122,35 +1843,33 @@ TIME_ITEM_LORE:
 - §7Только для %s§7и выше
 - ''
 - §e▸ Нажмите, чтобы открыть меню
-INVSEE_COMMAND_FORMAT: '§6§lСервер §8| §fИспользование: §a/invsee [ник]'
-RENAME_NO_ITEM_IN_HAND: '§6§lСервер §8| §fУ вас в руке должен быть §cпредмет'
-COMMAND_RENAME_FORMAT: '§6§lСервер §8| §fИспользование: §a/rename [название]'
-COMMAND_GETPOS: '§6§lСервер §8| §fВаши координаты: §a%s§f, §a%s§f, §a%s§f, §a%s§f, §a%s§f, §a%s§f'
-COMMAND_COMPASS: '§6§lСервер §8| §fВаше направление: §a%s §7(%s)'
-DEPTH_ABOVE_SEA: '§6§lСервер §8| §fВы выше уровня моря на §a%s §fблоков'
-DEPTH_BELOW_SEA: '§6§lСервер §8| §fВы ниже уровня моря на §a%s §fблоков'
-DEPTH_SEA: '§6§lСервер §8| §fВы на §aодном уровне §fс морем'
+INVSEE_COMMAND_FORMAT: '§6§lAVI§e§lFORCE§7: §fИспользование: §a/invsee [ник]'
+RENAME_NO_ITEM_IN_HAND: '§6§lAVI§e§lFORCE§7: §fУ вас в руке должен быть §cпредмет'
+COMMAND_RENAME_FORMAT: '§6§lAVI§e§lFORCE§7: §fИспользование: §a/rename [название]'
+COMMAND_GETPOS: '§6§lAVI§e§lFORCE§7: §fВаши координаты: §a%s§f, §a%s§f, §a%s§f, §a%s§f, §a%s§f, §a%s§f'
+COMMAND_COMPASS: '§6§lAVI§e§lFORCE§7: §fВаше направление: §a%s §7(%s)'
+DEPTH_ABOVE_SEA: '§6§lAVI§e§lFORCE§7: §fВы выше уровня моря на §a%s §fблоков'
+DEPTH_BELOW_SEA: '§6§lAVI§e§lFORCE§7: §fВы ниже уровня моря на §a%s §fблоков'
+DEPTH_SEA: '§6§lAVI§e§lFORCE§7: §fВы на §aодном уровне §fс морем'
 TIME_GUI_NAME: Смена времени в мире
 WEATHER_GUI_NAME: Смена погоды в мире
-COMMAND_FIREWORK: '§6§lСервер §8| §fВы запустили §aфейерверк'
-DONATE_CHAT_FORMAT: '§8[§2Донат-Чат§8] %s %s §8→ §f%s'
-STAFF_CHAT_FORMAT: '§8[§eСтафф-Чат§8] %s %s §8→ §f%s'
-PLAYER_AFK: '§6§lСервер §8| §fИгрок §c%s §fотошел и может не отвечать'
-PLAYER_CANCEL_AFK: '§6§lСервер §8| §fИгрок §a%s §fвернулся'
+COMMAND_FIREWORK: '§6§lAVI§e§lFORCE§7: §fВы запустили §aфейерверк'
+DONATE_CHAT_FORMAT: '§8[§2ДонатЧат§8] {prefix}{player} §8→ §f{message}'
+PLAYER_AFK: '§6§lAVI§e§lFORCE§7: §fИгрок §c%s §fотошел и может не отвечать'
+PLAYER_CANCEL_AFK: '§6§lAVI§e§lFORCE§7: §fИгрок §a%s §fвернулся'
 
 #ОДИН БЛОК
 TELEPORT_NOT_ON_GROUND: §6§lOneBlock §8| §fДля телепортации на спавн вы должны находиться
   на земле
 END_WORLD_START_RECREATE: §6§lOneBlock §8| §fНачалось восстановление §dэндер-мира
 END_WORLD_CANCEL_RECREATE: §6§lOneBlock §8| §fВосстановление §dэндер-мира закончено
-DRAGON_WORLD_REGEN_STARTED: §6§lСервер §8| §fНачалось восстановление §dКрая
-DRAGON_WORLD_REGEN_COMPLETE: §6§lСервер §8| §fВосстановление §dКрая §fзавершено
-WORLD_IS_LOADING: §6§lСервер §8| §fМир загружен не до конца, пожалуйста, подождите
-DRAGON_IS_KILLED: §6§lСервер §8| §fВаш остров уже убивал эндер-дракона
-USING_ANOTHER_PORTAL: §6§lСервер §8| §fВы не можете использовать чужие порталы
-WORLD_NOT_LOADED: §6§lСервер §8| §fЭндер-мир не загружен, сообщите администратору
-DRAGON_KILL: §6§lСервер §8| §6§lПоздравляем§f! §fВы убили дракона эндер-края и получили
-  §e%s §fмонет
+DRAGON_WORLD_REGEN_STARTED: '§6§lAVI§e§lFORCE§7: §fНачалось восстановление §dКрая'
+DRAGON_WORLD_REGEN_COMPLETE: '§6§lAVI§e§lFORCE§7: §fВосстановление §dКрая §fзавершено'
+WORLD_IS_LOADING: '§6§lAVI§e§lFORCE§7: §fМир загружен не до конца, пожалуйста, подождите'
+DRAGON_IS_KILLED: '§6§lAVI§e§lFORCE§7: §fВаш остров уже убивал эндер-дракона'
+USING_ANOTHER_PORTAL: '§6§lAVI§e§lFORCE§7: §fВы не можете использовать чужие порталы'
+WORLD_NOT_LOADED: '§6§lAVI§e§lFORCE§7: §fЭндер-мир не загружен, сообщите администратору'
+DRAGON_KILL: '§6§lAVI§e§lFORCE§7: §6§lПоздравляем§f! §fВы убили дракона эндер-края и получили §e%s §fмонет'
 CANCEL_NAME: §cОтменить
 CONFIRMED_NAME: Подтвердить
 ANSWER_YES: Да
@@ -2164,19 +1883,17 @@ END_PORTAL_HOLOGRAM:
 - '  §a§lЧтобы открыть портал'
 END_PORTAL_TITLE: §6§lПоздравляем!;§fВы достигли последней фазы
 ISLAND_CREATE_SUBTITLE: §7Подробная информация §f/is
-ISLAND_REMOVED_MEMBER: §6§lСервер §8| §fВладелец острова удалил свой остров, вы были
-  перемещены на спавн
+ISLAND_REMOVED_MEMBER: '§6§lAVI§e§lFORCE§7: §fВладелец острова удалил свой остров, вы были перемещены на спавн'
 ISLAND_UP_TITLE: §6§lПоздравляем!;§fОстров перешел на §a§l%s §fфазу
 ISLAND_UP_MESSAGE:
 - ''
-- §6§lСервер §8| §fВаш остров перешел на §a§l%s §fфазу
+- '§6§lAVI§e§lFORCE§7: §fВаш остров перешел на §a§l%s §fфазу'
 - ''
-ISLAND_MEMBER_BLOCKED: §6§lСервер §8| §fВы были внесены в §cсписок нежелательных
-  игроков §fэтого острова (владелец - %s§f)
+ISLAND_MEMBER_BLOCKED: '§6§lAVI§e§lFORCE§7: §fВы были внесены в §cсписок нежелательных игроков §fэтого острова (владелец - %s§f)'
 ISLAND_COMMAND_REMOVE_FORMAT_NO_ARGS:
-- §6§lСервер §8| §fВведите §cник игрока §f- §a/island remove [ник]
-- §6§lСервер §8| §fДля удаления острова используйте §f- §a/island destroy
-ISLAND_REMOVED: §6§lСервер §8| §fОстров успешно удален, вы были перемещены на спавн
+- '§6§lAVI§e§lFORCE§7: §fВведите §cник игрока §f- §a/island remove [ник]'
+- '§6§lAVI§e§lFORCE§7: §fДля удаления острова используйте §f- §a/island destroy'
+ISLAND_REMOVED: '§6§lAVI§e§lFORCE§7: §fОстров успешно удален, вы были перемещены на спавн'
 ISLAND_OPENED_GUI_NAME: Публичные острова
 ISLAND_OPENED_GUI_LORE:
 - ''
@@ -2187,8 +1904,7 @@ ISLAND_OPENED_GUI_LORE:
 - '§7Открыто территории: §a%s'
 - '§7Участники: §c%s§7/§a%s'
 - '§7Онлайн участников: §a%s'
-ISLAND_BEACON_ENABLE_ERROR: §6§lСервер §8| §fВы не можете активировать данный эффект,
-  лимит вашего острова на кол-во эффектов §7%s
+ISLAND_BEACON_ENABLE_ERROR: '§6§lAVI§e§lFORCE§7: §fВы не можете активировать данный эффект, лимит вашего острова на кол-во эффектов §7%s'
 ISLAND_BEACON_GUI_NAME: Эффекты
 ISLAND_PROFILE_BEACON_NAME: Эффекты
 ISLAND_PROFILE_BEACON_LORE:
@@ -2210,9 +1926,8 @@ ISLAND_REQUESTS_ITEM_HEAD_LORE:
 - ''
 - §e▸ ЛКМ, чтобы принять запрос
 - §e▸ ПКМ, чтобы отклонить
-ISLAND_CLEAR_STATS_ERROR: §6§lСервер §8| §fВы не можете очистить пустую статистику
-  :/
-ISLAND_CLEAR_STATS_APPLY: §6§lСервер §8| §fСтатистика очищена
+ISLAND_CLEAR_STATS_ERROR: '§6§lAVI§e§lFORCE§7: §fВы не можете очистить пустую статистику :/'
+ISLAND_CLEAR_STATS_APPLY: '§6§lAVI§e§lFORCE§7: §fСтатистика очищена'
 ISLAND_CLEAR_STATS_NAME: Очистить статистику
 ISLAND_CLEAR_STATS_LORE:
 - ''
@@ -2232,15 +1947,12 @@ ISLAND_NOT_OWNER: §cОшибка, вы не владелец или совла�
 ISLAND_NOT_IN_OWN: §cДля управления своим островом сначала покиньте чужой!
 ISLAND_NOT_YOU_COMMAND: §cОшибка, вы не можете использовать эту команду на чужом острове!
 ISLAND_NOT_YOU: §cОшибка, невозможно это сделать, вы не участник острова!
-ISLAND_TELEPORT_HOME: §6§lСервер §8| §fВы были телепортированы на остров (владелец
-  - %s§f)
+ISLAND_TELEPORT_HOME: '§6§lAVI§e§lFORCE§7: §fВы были телепортированы на остров (владелец - %s§f)'
 ISLAND_COMMAND_ADD_FORMAT: /island add <ник игрока>
 ISLAND_COMMAND_TP_FORMAT_NO_ARGS: /island tp <ник игрока>
 ISLAND_COMMAND_REMOVE_FORMAT: /island remove <ник игрока>
-ISLAND_ALREADY_CREATE: §6§lСервер §8| §fОшибка, у вас уже есть остров. Чтобы попасть
-  на свой остров, напишите §7/island home
-ISLAND_NO_ISLAND: '§6§lСервер §8| §fОшибка, у вас §cнет острова§f. Создать: §6/island
-  create'
+ISLAND_ALREADY_CREATE: '§6§lAVI§e§lFORCE§7: §fОшибка, у вас уже есть остров. Чтобы попасть на свой остров, напишите §7/island home'
+ISLAND_NO_ISLAND: '§6§lAVI§e§lFORCE§7: §fОшибка, у вас §cнет острова§f. Создать: §6/island create'
 ISLAND_ADD_REQUEST: §fПриглашение отправлено игроку %s
 ISLAND_ADD_PLAYER_REQUEST_1: ' %s §fпредлагает вам играть вместе на своем острове'
 ISLAND_ADD_PLAYER_REQUEST_2: ' §fДля принятия запроса пишите '
@@ -2337,10 +2049,10 @@ ISLAND_CANCEL: Вы отклонили запрос на совместное с
 ISLAND_BAD_WARP_WORLD: §cВ данном мире нельзя создавать варпы
 ISLAND_COMMAND_ADD_FORMAT_NO_ARGS: /island add <ник игрока>
 HOVER: ' §7(наведи сюда)'
-ISLAND_ADD_MONEY: §6§lСервер §8| §a%s §fдобавил §e%s §fмонет на баланс острова
-ISLAND_ADD_MONEY_NO_MONEY: '§6§lСервер §8| §cНедостаточно денег на балансе. У вас
+ISLAND_ADD_MONEY: '§6§lAVI§e§lFORCE§7: §a%s §fдобавил §e%s §fмонет на баланс острова'
+ISLAND_ADD_MONEY_NO_MONEY: '§6§lAVI§e§lFORCE§7: §cНедостаточно денег на балансе. У вас
   имеется: %s'
-ISLAND_ADD_MONEY_ERROR: §6§lСервер §8| §cУкажите верную сумму
+ISLAND_ADD_MONEY_ERROR: '§6§lAVI§e§lFORCE§7: §cУкажите верную сумму'
 ISLAND_ADD_MONEY_FORMAT_NO_ARGS: §7/is addmoney <количество> §f- добавить монет на
   баланс острова
 ISLAND_WARP_REMOVED: §cВаш варп %s §cбыл удален, т.к. остров, на котором он стоял,
@@ -2405,40 +2117,40 @@ ISLAND_MEMBER_LORE:
 - ''
 - §e▸ Нажмите ПКМ, чтобы управлять игроком
 ISLAND_MEMBER_OFFLINE: §cоффлайн
-ISLAND_MEMBER_SETTINGS_OWNER: §6§lСервер §8| §cОшибка, вы не можете настраивать права
-  владельца острова!
-ISLAND_REQUESTS_ERROR: §6§lСервер §8| §cОшибка, у вас уже есть остров, приглашения
-  вам не нужны
-ISLAND_ADDMEMBER_LIMIT: §6§lСервер §8| §cОшибка, вы привысили лимит на кол-во участников
-  вашего острова. Кол-во участников не должно превышать %s
-ISLAND_ADDMEMBER_YOU: §6§lСервер §8| §cОшибка, вы не можете кинуть приглашение сами
-  себе
-ISLAND_ADDMEMBER_ERROR: §6§lСервер §8| §cДанный игрок уже является участником или
+ISLAND_MEMBER_SETTINGS_OWNER: '§6§lAVI§e§lFORCE§7: §cОшибка, вы не можете настраивать права
+  владельца острова!'
+ISLAND_REQUESTS_ERROR: '§6§lAVI§e§lFORCE§7: §cОшибка, у вас уже есть остров, приглашения
+  вам не нужны'
+ISLAND_ADDMEMBER_LIMIT: '§6§lAVI§e§lFORCE§7: §cОшибка, вы привысили лимит на кол-во участников
+  вашего острова. Кол-во участников не должно превышать %s'
+ISLAND_ADDMEMBER_YOU: '§6§lAVI§e§lFORCE§7: §cОшибка, вы не можете кинуть приглашение сами
+  себе'
+ISLAND_ADDMEMBER_ERROR: '§6§lAVI§e§lFORCE§7: §cДанный игрок уже является участником или
   владельцем какого-то острова. Сначала он должен удалить свой остров командой §6/is
-  destroy
-ISLAND_SETHOME: §6§lСервер §8| §fТочка дома установлена
-ISLAND_SETHOME_ERROR: §6§lСервер §8| §cВы не можете установить точку дома в этой
-  локации
-ISLAND_DELETE: §6§lСервер §8| §fИгрок %s §fбыл успешно удален с вашего острова
-ISLAND_DELETE_TO: §6§lСервер §8| §fИгрок %s §fудалил вас с острова §fи вы были отправлены
-  на спавн
-ISLAND_DELETE_MEMBER_OWNER: §6§lСервер §8| §cОшибка, вы не можете удалить сами себя
-  со своего острова
-ISLAND_DELETE_MEMBER_ERROR: §6§lСервер §8| §cОшибка, данный игрок не является участником
-  вашего острова
-ISLAND_DELETE_MEMBER_ERROR2: §6§lСервер §8| §cОшибка, данный игрок владелец острова
-ISLAND_LEAVE: §6§lСервер §8| §fВы покинули остров игрока %s
-ISLAND_LEAVE_OWNER: §6§lСервер §8| §cОшибка, вы не можете покинуть свой же остров
-ISLAND_DESTROY_COOLDOWN: §6§lСервер §8| §cВы не можете так часто делать рестарт острова,
-  вам придется подождать %s
+  destroy'
+ISLAND_SETHOME: '§6§lAVI§e§lFORCE§7: §fТочка дома установлена'
+ISLAND_SETHOME_ERROR: '§6§lAVI§e§lFORCE§7: §cВы не можете установить точку дома в этой
+  локации'
+ISLAND_DELETE: '§6§lAVI§e§lFORCE§7: §fИгрок %s §fбыл успешно удален с вашего острова'
+ISLAND_DELETE_TO: '§6§lAVI§e§lFORCE§7: §fИгрок %s §fудалил вас с острова §fи вы были отправлены
+  на спавн'
+ISLAND_DELETE_MEMBER_OWNER: '§6§lAVI§e§lFORCE§7: §cОшибка, вы не можете удалить сами себя
+  со своего острова'
+ISLAND_DELETE_MEMBER_ERROR: '§6§lAVI§e§lFORCE§7: §cОшибка, данный игрок не является участником
+  вашего острова'
+ISLAND_DELETE_MEMBER_ERROR2: '§6§lAVI§e§lFORCE§7: §cОшибка, данный игрок владелец острова'
+ISLAND_LEAVE: '§6§lAVI§e§lFORCE§7: §fВы покинули остров игрока %s'
+ISLAND_LEAVE_OWNER: '§6§lAVI§e§lFORCE§7: §cОшибка, вы не можете покинуть свой же остров'
+ISLAND_DESTROY_COOLDOWN: '§6§lAVI§e§lFORCE§7: §cВы не можете так часто делать рестарт острова,
+  вам придется подождать %s'
 ISLAND_UPGRADE_GUI_NAME: Улучшения
 ISLAND_CREATE_GUI_NAME: Создание острова
 ISLAND_CREATE_ITEM_NAME: §aСоздать остров
 ISLAND_CREATE_ITEM_LORE:
 - ''
 - §7Нажмите, чтобы создать остров
-ISLAND_BEACON_NOT_OPEN: §6§lСервер §8| §fДанный эффект вам недоступен, купите его!
-ISLAND_BEACON_BUY_ALREADY: §6§lСервер §8| §fВы уже владеете данным эффектом
+ISLAND_BEACON_NOT_OPEN: '§6§lAVI§e§lFORCE§7: §fДанный эффект вам недоступен, купите его!'
+ISLAND_BEACON_BUY_ALREADY: '§6§lAVI§e§lFORCE§7: §fВы уже владеете данным эффектом'
 ISLAND_BUY_UPGRADE_GUI_NAME: Купить улучшение?
 ISLAND_BUY_UPGRADE_LORE:
 - ' '
@@ -2458,9 +2170,9 @@ ISLAND_CLICK_TO_BUY_BEACON_ERROR:
 - §cДанный эффект вам недоступен!
 - ' '
 - §e▸ Нажмите ПКМ, чтобы купить данный эффект
-ISLAND_NOT_FOUND: §6§lСервер §8| §fОстров игрока %s §fне найден
-ISLAND_CLOSED: §6§lСервер §8| §fДанный остров закрыт и телепортация на него невозможна!
-  Попросите владельца отключить флаг §cприватность
+ISLAND_NOT_FOUND: '§6§lAVI§e§lFORCE§7: §fОстров игрока %s §fне найден'
+ISLAND_CLOSED: '§6§lAVI§e§lFORCE§7: §fДанный остров закрыт и телепортация на него невозможна!
+  Попросите владельца отключить флаг §cприватность'
 BOARD_MEMBER_ISLAND: Кол-во участников
 BOARD_NO_ISLAND1: ' Остров не создан'
 BOARD_NO_ISLAND2: ' Создать: §6/island create '
@@ -2603,17 +2315,17 @@ ISLAND_PROFILE_IGNORE_LIST_LORE:
 - §e▸ Нажмите, чтобы открыть список
 ISLAND_IGNORE_ALREADY: §cОшибка, данный игрок уже в списке!
 ISLAND_IGNORE_MEMBER: §cОшибка, данный игрок является участником острова!
-ISLAND_ADD_IGNORE_PLAYER: §6§lСервер §8| %s §fбыл добавлен участником %s§f в список
-  нежелательных игроков острова
-ISLAND_REMOVE_IGNORE_PLAYER: §6§lСервер §8| %s §fбыл удален участником %s§f из списка
-  нежелательных игроков острова
-ISLAND_MAX_UPGRADE: §6§lСервер §8| §cОшибка! У вас уже максимальный уровень данного
-  апгрейда
-ISLAND_UPGRADE_BUY_ERROR: §6§lСервер §8| §fУ вас недостаточно §6монет§f для этой
-  покупки (необходимо §7x%s§f)
-ISLAND_BUY_UPGRADE_TERRITORY: §6§lСервер §8| §fИгрок %s §fкупил расширение территории
-  острова
-ISLAND_BUY_UPGRADE: §6§lСервер §8| §fИгрок %s §fкупил улучшение §a%s
+ISLAND_ADD_IGNORE_PLAYER: '§6§lAVI§e§lFORCE§7: %s §fбыл добавлен участником %s§f в список
+  нежелательных игроков острова'
+ISLAND_REMOVE_IGNORE_PLAYER: '§6§lAVI§e§lFORCE§7: %s §fбыл удален участником %s§f из списка
+  нежелательных игроков острова'
+ISLAND_MAX_UPGRADE: '§6§lAVI§e§lFORCE§7: §cОшибка! У вас уже максимальный уровень данного
+  апгрейда'
+ISLAND_UPGRADE_BUY_ERROR: '§6§lAVI§e§lFORCE§7: §fУ вас недостаточно §6монет§f для этой
+  покупки (необходимо §7x%s§f)'
+ISLAND_BUY_UPGRADE_TERRITORY: '§6§lAVI§e§lFORCE§7: §fИгрок %s §fкупил расширение территории
+  острова'
+ISLAND_BUY_UPGRADE: '§6§lAVI§e§lFORCE§7: §fИгрок %s §fкупил улучшение §a%s'
 ISLAND_BUY_UPGRADE_PRICE_LORE:
 - '§7Цена: §a%s монет'
 - ' '
@@ -2688,8 +2400,8 @@ ISLAND_RANK_MEMBER:
 - §8• §7Телепортация на остров
 - §8• §7Взаимодействие с территорией острова
 - ' '
-ISLAND_MOB_COMMAND_ERROR: §6§lСервер §8| §fВы должны находиться на территории своего
-  острова
+ISLAND_MOB_COMMAND_ERROR: '§6§lAVI§e§lFORCE§7: §fВы должны находиться на территории своего
+  острова'
 ISLAND_MOB_COMMAND:
 - '§fНа вашем острове:'
 - ' §c▪ §fЖивотных: §a%s'
@@ -2706,8 +2418,8 @@ ISLAND_ACHIEVEMENT_LORE:
 - ' '
 - ' §e▸ Нажмите, чтобы открыть список'
 ISLAND_ACHIEVEMENT_GUI_NAME: Настройки острова ▸ Достижения
-ISLAND_BUY_BEACON_ALERT: §6§lСервер §8| §fИгрок %s §fкупил эффект маяка §7%s §fза
-  §e%s §f%s
+ISLAND_BUY_BEACON_ALERT: '§6§lAVI§e§lFORCE§7: §fИгрок %s §fкупил эффект маяка §7%s §fза
+  §e%s §f%s'
 INVENTORY_IS_FULL: §cОшибка, ваш инвентарь заполнен
 ISLAND_ACHIEVEMENT_START_NAME: Старт
 ISLAND_ACHIEVEMENT_START_LORE:
@@ -2990,17 +2702,18 @@ QUEST_INFO_LORE:
 - ' §7Одновременно можно выполнять только один'
 - ' §7квест! Если вы смените выполняемый квест,'
 - ' §7то прогресс предыдущего будет обнулен'
-QUEST_SELECT: '§6§lКвесты §8| §fВы §aначали выполнение §fквеста %s'
-QUEST_COMPLETE: '§6§lКвесты §8| §a§lПоздравляем! §fВы завершили квест %s'
+QUEST_SELECT: '§c§lКВЕСТЫ§7: §fВы §aначали выполнение §fквеста %s'
+QUEST_COMPLETE: '§c§lКВЕСТЫ§7: §a§lПоздравляем! §fВы завершили квест %s'
 TIME_MONEY_TITLE: '§6§lДонатерская зарплата'
 TIME_MONEY_SUBTITLE: '§fВы заработали §e%s§6⛂ §fза §aчас §fигры'
 LOBBY_JOIN_MESSAGE:
-- '§8§m -------------------------------------------'
-- '      §fДобро пожаловать на §6§lＦｉｘ§e§lＭｉｎｅ'
-- ''
-- '§a❃ §fБеги вперед и выбирай режим для игры'
-- '§d❃ §fКликни по компасу, чтобы узнать больше'
-- '§b❃ §fПосмотри свой профиль, нажми на голову'
-- ''
-- '  §9[vk.com/fixmine_ru] §8- §b[discord.fixmine.ru]'
-- '§8§m -------------------------------------------'
+- '§6'
+- '  §e✈ §fДобро пожаловать на §6§lＡＶＩ§e§lＦＯＲＣＥ'
+- '§d'
+- '   §a▪ §7Беги вперед и выбирай режим для игры'
+- '   §d▪ §7Кликни по компасу, чтобы узнать больше'
+- '   §b▪ §7Посмотри свой профиль, нажми на голову'
+- '§f'
+- '  §8┏ §fСайт: §e§lAviForce.fun'
+- '  §8┗ §fГруппа ВК: §b§lvk.com/aviforcemc'
+- '§e'
