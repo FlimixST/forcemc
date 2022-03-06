@@ -1538,9 +1538,9 @@ KIT_GET_DISABLE_ONLY_LORE:
 #AUCTION
 ABSENT: Отсутствует
 SELL_NO_PERMS: '§6§lАУКЦИОН§7| §fПродажа предметов доступна от привилегии %s'
-AUCTION_ANOTHER_LOCATION: '§6§lАУКЦИОН§7: §fИспользование аукциона не на §c/warp ah
+AUCTION_ANOTHER_LOCATION: '§6§lАУКЦИОН§7| §fИспользование аукциона не на §c/warp ah
   §fдоступно от привилегии %s'
-SHOP_ANOTHER_LOCATION: '§6§lАУКЦИОН§7: §fИспользование магазина не на §c/warp ah §fдоступно
+SHOP_ANOTHER_LOCATION: '§6§lАУКЦИОН§7| §fИспользование магазина не на §c/warp ah §fдоступно
   от привилегии %s'
 AUCTION_SHOW_FORMAT: §a/ah show [ник]
 AUCTION_HELP_ITEM_NAME: §6Помощь
@@ -1641,24 +1641,24 @@ AUCTION_GUI_NAME: Мои предметы
 AUCTION_GUI_SELL_NAME: Продажа
 AUCTION_GUI_BUY_NAME: Покупка
 AUCTION_PLAYERGUI_NAME: Аукцион %s
-AUCTION_FORMAT_NO_ARGS: '§6§lАУКЦИОН§7: §fПродать предмет: §a/ah sell [цена] [кол-во]'
-AUCTION_SELL_AIR: §6§lАУКЦИОН§7: §fОшибка, вы не можете продавать воздух (
+AUCTION_FORMAT_NO_ARGS: '§6§lАУКЦИОН§7| §fПродать предмет: §a/ah sell [цена] [кол-во]'
+AUCTION_SELL_AIR: §6§lАУКЦИОН§7| §fОшибка, вы не можете продавать воздух (
 AUCTION_COMMAND_ERROR: §cОшибка, цена предмета должна быть только числом
 AUCTION_COMMAND_ERROR1: §cОшибка, цена и кол-во предмета не может быть равна 0
 AUCTION_COMMAND_ERROR2: §cОшибка, кол-во предметов для продажи должно быть числом
 AUCTION_COMMAND_ERROR3: §cОшибка, вы не можете продать данный айтем пока он находится
   во 2й руке
-AUCTION_ADD_TO_SELL: §6§lАУКЦИОН§7: §fПредмет §7%s §fбыл выложен на продажу за §a%s
-AUCTION_ADD_TO_SELL_ERROR: §6§lАУКЦИОН§7: §fОшибка, в вашей руке недостаточное кол-во
+AUCTION_ADD_TO_SELL: §6§lАУКЦИОН§7| §fПредмет §7%s §fбыл выложен на продажу за §a%s
+AUCTION_ADD_TO_SELL_ERROR: §6§lАУКЦИОН§7| §fОшибка, в вашей руке недостаточное кол-во
   предметов
-AUCTION_ITEM_ALLREADY_SELLED: §6§lАУКЦИОН§7: §fОшибка, предмет был продан, сожалеем...
-AUCTION_NO_MONEY: §6§lАУКЦИОН§7: §fОшибка, у вас недостаточно денег для покупки предмета
-AUCTION_BUY_YOU_ERROR: §6§lАУКЦИОН§7: §fОшибка, вы не можете купить сами у себя...
-AUCTION_BUY: §6§lАУКЦИОН§7: §fВы успешно купили §7%s §fx §7%s §fза §a%s$
-AUCTION_BUY_SELLER: §6§lАУКЦИОН§7: §fИгрок %s §fкупил у вас §7%s §fx §7%s §fза §a%s
-AUCTION_LIMIT_ERROR: §6§lАУКЦИОН§7: §fОшибка, у вас превышен лимит на кол-во активных
+AUCTION_ITEM_ALLREADY_SELLED: §6§lАУКЦИОН§7| §fОшибка, предмет был продан, сожалеем...
+AUCTION_NO_MONEY: §6§lАУКЦИОН§7| §fОшибка, у вас недостаточно денег для покупки предмета
+AUCTION_BUY_YOU_ERROR: §6§lАУКЦИОН§7| §fОшибка, вы не можете купить сами у себя...
+AUCTION_BUY: §6§lАУКЦИОН§7| §fВы успешно купили §7%s §fx §7%s §fза §a%s$
+AUCTION_BUY_SELLER: §6§lАУКЦИОН§7| §fИгрок %s §fкупил у вас §7%s §fx §7%s §fза §a%s
+AUCTION_LIMIT_ERROR: §6§lАУКЦИОН§7| §fОшибка, у вас превышен лимит на кол-во активных
   предметов. Ваш текующий лимит §a%s §fпредметов
-AUCTION_SHOW_ERROR: §6§lАУКЦИОН§7: §fОшибка, у игрока %s §fнет активных товаров для
+AUCTION_SHOW_ERROR: §6§lАУКЦИОН§7| §fОшибка, у игрока %s §fнет активных товаров для
   продажи
 AUCTION_TYPE_ARMOR_NAME: Броня
 AUCTION_TYPE_WEAPON_NAME: Оружие
@@ -1690,7 +1690,7 @@ AUCTION_NO_ITEMS_LORE:
 - ''
 - §7Кажется, я ничего не нашел,
 - §7или предметы отсутствуют
-AUCTION_REMOVED_ITEM: §6§lАУКЦИОН§7: §fВы успешно сняли свой лот с аукциона
+AUCTION_REMOVED_ITEM: §6§lАУКЦИОН§7| §fВы успешно сняли свой лот с аукциона
 AUCTION_LORE_MYGUI:
 - ''
 - '§7Цена продажи: §a%s$'
