@@ -807,7 +807,7 @@ JOBS_BOARD_STATS_LINE: ' §e§lСтатистика'
 MINER_TOP_HEADER: '§6§lТОП ШАХТЕРОВ'
 WOODCUTTER_TOP_HEADER: '§a§lТОП ЛЕСОРУБОВ'
 #LOBBY
-LOBBY_BOARD_NAME: '§8§l» §6§lAviForce §e§lХаб'
+LOBBY_BOARD_NAME: '§8§l» §6§lForceMc §e§lХаб'
 LOBBY_BOARD_DATE_LINE: '    §7'
 LOBBY_BOARD_GROUP_LINE: ' Группа: '
 LOBBY_BOARD_PROFILE_LINE: ' §e§lПрофиль:'
