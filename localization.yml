@@ -1537,10 +1537,10 @@ KIT_GET_DISABLE_ONLY_LORE:
 - ' §8▪ §fДоступен для: %s'
 #AUCTION
 ABSENT: Отсутствует
-SELL_NO_PERMS: §6§lАУКЦИОН§7: §fПродажа предметов доступна от привилегии %s
-AUCTION_ANOTHER_LOCATION: §6§lАУКЦИОН§7: §fИспользование аукциона не на §c/warp ah
-  §fдоступно от привилегии %s
-SHOP_ANOTHER_LOCATION: §6§lАУКЦИОН§7: §fИспользование магазина не на §c/warp ah §fдоступно
+SELL_NO_PERMS: '§6§lАУКЦИОН§7| §fПродажа предметов доступна от привилегии %s'
+AUCTION_ANOTHER_LOCATION: '§6§lАУКЦИОН§7: §fИспользование аукциона не на §c/warp ah
+  §fдоступно от привилегии %s'
+SHOP_ANOTHER_LOCATION: '§6§lАУКЦИОН§7: §fИспользование магазина не на §c/warp ah §fдоступно
   от привилегии %s'
 AUCTION_SHOW_FORMAT: §a/ah show [ник]
 AUCTION_HELP_ITEM_NAME: §6Помощь
