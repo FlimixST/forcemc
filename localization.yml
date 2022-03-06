@@ -1,4 +1,4 @@
-
+#SERVER/PROFILE
 PROFILE_MAIN_GUI_NAME: '§8Профиль (%s)'
 SETTINGS_GUI_NAME: '§8Профиль ▸ Настройки'
 REWARD_GUI_NAME: '§8Профиль ▸ Награды'
@@ -938,7 +938,7 @@ BOXES_DONATE_LORE:
 - ''
 - ' §fЧто может выпасть:'
 - ''
-- §8  ▪ §e§lWARLOCK
+- §8  ▪ §e§lWARRIOR
 - §8  ▪ §a§lLORD
 - §8  ▪ §6§lKING
 - §8  ▪ §b§lLEGEND
