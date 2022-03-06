@@ -860,8 +860,8 @@ PRESENTS_COMPLETE_TITLE: '§6§lПоздравляем!'
 PRESENTS_COMPLETE_SUBTITLE: '§fВы отыскали §aвсе §fновогодние подарки'
 BOSS_BAR_LOBBY:
 - '    §f§lВЕСЕННИЕ §c§lСКИДКИ! §f§lВСЕ ЦЕНЫ БЫЛИ §a§lСНИЖЕНЫ §f§lНА §6§l30%%'
-- '    §f§lПОКУПКА §e§lДОНАТА §f§lНА САЙТЕ §7► §6§lAVIFORCE.FUN'
-- '    §f§lПОЛУЧИТЕ БЕСПЛАТНЫЕ §e§lДОНАТ-КЕЙСЫ §f§lИ §6§lЮНИТЫ §7► §e§l/GETFORCE'
+- '    §f§lПОКУПКА §e§lДОНАТА §f§lНА САЙТЕ §7► §6§lFORCEMC.RU'
+- '    §f§lПОЛУЧИТЕ БЕСПЛАТНЫЕ §e§lДОНАТ-КЕЙСЫ §f§lИ §6§lРУБЛИ §7► §e§l/GETFORCE'
 - '    §f§lГРУППА СЕРВЕРА §9§lВКОНТАКТЕ §7► §b§lVK.COM/forcemc_ru'
 - '    §f§lСЕРВЕР ДЛЯ §a§lНАСТОЯЩЕГО §f§lГРИФЕРА.'
 HOLOGRAM_LEVEL_TOP_LINES:
