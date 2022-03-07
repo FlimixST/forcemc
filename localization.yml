@@ -446,6 +446,7 @@ CALL_HOVER_ACCEPT:
 CALL_HOVER_IGNORE:
 - '§fНажмите сюда, чтобы §cотклонить'
 - '§fзапрос от игрока %s'
+HOVER: ' §7(наведи сюда)'
 EFFECT_FIREWORK_NAME: '§bФейерверк'
 EFFECT_WATER_NAME: '§9Вода'
 EFFECT_EXPLOSION_NAME: '§cВзрыв'
