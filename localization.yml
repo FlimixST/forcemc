@@ -1716,6 +1716,9 @@ AUCTION_CONFIRMED_GUI_LORE:
 - '§7купить §f%s §7x §f%s '
 - §7за §a%s$ §7у игрока %s
 - ''
+ACCEPT_LORE_NO:
+- ''
+- §7Отменить действие
 AUCTION_LORE_ITEM:
 - ''
 - '§7Продавец: %s'
