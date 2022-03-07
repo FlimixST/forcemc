@@ -739,7 +739,7 @@ SHOP_FORMAT: /shop <название магазина>
 SHOP_NAMES: '§b§lМАГАЗИН§7: §fДоступные магазины: '
 SHOP_NOT_FOUND: §cОшибка, магазин %s не найден
 SHOP_ALL_ITEMS_SELLED: '§b§lМАГАЗИН§7: §fВы успешно продали §7%s §fx §7%s §fза §a%s$'
-SHOP_ALL_ITEMS_BUY: '§b§lМАГАЗИН§7: §fВы успешно купили §7%s §fx §7%s §fза §a%s$'
+SHOP_ALL_ITEMS_BUY: '§b§lМАГАЗИН§7: §fВы успешно купили §7%s §fx§7%s §fза §a%s$'
 SKYBLOCK_SHOP_BLOCKS: Магазин блоков
 SKYBLOCK_SHOP_FARMING: Магазин фермерства
 SKYBLOCK_SHOP_RES: Магазин ценных ресурсов
